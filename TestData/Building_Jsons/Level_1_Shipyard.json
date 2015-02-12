@@ -1,0 +1,33 @@
+{
+        "_ts": 1409692899,
+        "buildings": [
+            {
+               "level": 1,
+                "type": "Shipyard",
+                "hp": 400,
+                "energy_when_destroyed": 50,
+                "crew_xp_when_destroyed": 16,
+                "requirement_level_type": "Den",
+                "requirement_level": 1,
+                "build_cost_gold": 200,
+                "build_cost_grog": 0,
+                "build_duration": 0,
+                "player_xp_when_built": 75,
+                "accrual_rate_gold": 0,
+                "accrual_rate_grog": 0,
+                "gold_capacity": 0,
+                "grog_capacity": 0,
+                "gold_storage": 0,
+                "grog_storage": 0,
+                "prone_multiplier": 0,
+                "footprint_width": 0,
+                "footprint_length": 0
+            }
+        ],
+        "date_conditions": [],
+        "enabled": true,
+        "name": "default",
+        "options": {},
+        "priority": 1,
+        "user_conditions": []
+}

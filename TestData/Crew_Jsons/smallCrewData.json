@@ -1,0 +1,206 @@
+{
+	"crew": [
+		{
+			"pirate_id": 1,
+			"pirate_name": "Blackbeard",
+			"pirate_image": "crew_blackbeard",
+			"rarity": 5,
+			"attack_multiplier": 1.25,
+			"health_multiplier": 0.9,
+			"active_type": "REPAIR",
+			"active_value": 15,
+			"resist_type": 1,
+			"pirate_class": 1,
+			"pirate_bio": "Bilge rat gaff wherry galleon topmast Chain Shot hempen halter brig lookout jolly boat. Clipper skysail capstan Sea Legs spanker belaying pin chantey bilge rat Sail ho black jack. ",
+			"pirate_tags": "bearded,pegleg,eyepatch,celebratesmichaelboltonsentirecatalog"
+		},
+		{
+			"pirate_id": 2,
+			"pirate_name": "Long John Silver",
+			"pirate_image": "crew_longjohnsilver",
+			"rarity": 5,
+			"attack_multiplier": 1.23,
+			"health_multiplier": 4.56,
+			"active_type": "SPLASH",
+			"active_value": 23,
+			"resist_type": 1,
+			"pirate_class": 2,
+			"pirate_bio": "Square-rigged Gold Road man-of-war topmast maroon spike line scurvy scourge of the seven seas yawl driver tender splice the main brace. Long clothes black jack crow's nest rutters maroon marooned man-of-war parley walk the plank quarterdeck driver matey chantey. ",
+			"pirate_tags": "fish,chips,maltvinegar"
+		},
+		{
+			"pirate_id": 3,
+			"pirate_name": "The Guy Who Made Napster",
+			"pirate_image": "crew_napster",
+			"rarity": 5,
+			"attack_multiplier": 0.85,
+			"health_multiplier": 1.123,
+			"active_type": "SUMMON_COMPANION",
+			"active_value": 1000,
+			"resist_type": 1,
+			"pirate_class": 3,
+			"pirate_bio": "Bilge rat gaff wherry galleon topmast Chain Shot hempen halter brig lookout jolly boat. Clipper skysail capstan Sea Legs spanker belaying pin chantey bilge rat Sail ho black jack. ",
+			"pirate_tags": "internet,pirate"
+		},
+		{
+			"pirate_id": 4,
+			"pirate_name": "Captain Crunch",
+			"pirate_image": "crew_cerealguy",
+			"rarity": 5,
+			"attack_multiplier": 1.11,
+			"health_multiplier": 2.22,
+			"active_type": "TRAP_SIGHT",
+			"active_value": 20000,
+			"resist_type": 1,
+			"pirate_class": 4,
+			"pirate_bio": "Square-rigged Gold Road man-of-war topmast maroon spike line scurvy scourge of the seven seas yawl driver tender splice the main brace. Long clothes black jack crow's nest rutters maroon marooned man-of-war parley walk the plank quarterdeck driver matey chantey. ",
+			"pirate_tags": "vitaminfortified,sugary"
+		},
+		{
+			"pirate_id": 5,
+			"pirate_name": "Hook",
+			"pirate_image": "crew_dustinhoffman",
+			"rarity": 5,
+			"attack_multiplier": 2.22,
+			"health_multiplier": 3.33,
+			"active_type": "SUMMON_CREATURE",
+			"active_value": 123,
+			"resist_type": 1,
+			"pirate_class": 5,
+			"pirate_bio": "Bilge rat gaff wherry galleon topmast Chain Shot hempen halter brig lookout jolly boat. Clipper skysail capstan Sea Legs spanker belaying pin chantey bilge rat Sail ho black jack. ",
+			"pirate_tags": "hookhand,prettyevil"
+		},
+		{
+			"pirate_id": 6,
+			"pirate_name": "#6",
+			"pirate_image": "crew_theprisoner",
+			"rarity": 5,
+			"attack_multiplier": 1,
+			"health_multiplier": 1,
+			"active_type": "ZODIAC_GOLD_DRAGON",
+			"active_value": 123456,
+			"resist_type": 1,
+			"pirate_class": 6,
+			"pirate_bio": "who is number one?",
+			"pirate_tags": "british,spy"
+		}
+	],
+	"crew_xp": [
+		{
+			"pirate_level": 1,
+			"upgrade_exp": 300,
+			"exp_to_level_up": 300
+		},
+		{
+			"pirate_level": 2,
+			"upgrade_exp": 600,
+			"exp_to_level_up": 302
+		},
+		{
+			"pirate_level": 3,
+			"upgrade_exp": 902,
+			"exp_to_level_up": 305
+		},
+		{
+			"pirate_level": 4,
+			"upgrade_exp": 1207,
+			"exp_to_level_up": 309
+		},
+		{
+			"pirate_level": 20,
+			"upgrade_exp": 7311,
+			"exp_to_level_up": 509
+		},
+		{
+			"pirate_level": 21,
+			"upgrade_exp": 7820,
+			"exp_to_level_up": 551
+		},
+		{
+			"pirate_level": 22,
+			"upgrade_exp": 8371,
+			"exp_to_level_up": 595
+		},
+		{
+			"pirate_level": 300,
+			"upgrade_exp": 17116051,
+			"exp_to_level_up": 0
+		},
+	],
+	"crew_base_stats": [
+	{
+		"pirate_level": 1,
+		"attack_rarity_1": 15,
+		"attack_rarity_2": 18,
+		"attack_rarity_3": 23,
+		"attack_rarity_4": 29,
+		"attack_rarity_5": 36,
+		"health_rarity_1": 225,
+		"health_rarity_2": 255,
+		"health_rarity_3": 300,
+		"health_rarity_4": 360,
+		"health_rarity_5": 435
+	},
+	{
+		"pirate_level": 2,
+		"attack_rarity_1": 16,
+		"attack_rarity_2": 19,
+		"attack_rarity_3": 24,
+		"attack_rarity_4": 30,
+		"attack_rarity_5": 37,
+		"health_rarity_1": 227,
+		"health_rarity_2": 257,
+		"health_rarity_3": 302,
+		"health_rarity_4": 362,
+		"health_rarity_5": 437
+	},
+	{
+		"pirate_level": 3,
+		"attack_rarity_1": 17,
+		"attack_rarity_2": 20,
+		"attack_rarity_3": 25,
+		"attack_rarity_4": 31,
+		"attack_rarity_5": 38,
+		"health_rarity_1": 230,
+		"health_rarity_2": 260,
+		"health_rarity_3": 305,
+		"health_rarity_4": 365,
+		"health_rarity_5": 440
+	},
+	{
+		"pirate_level": 300,
+		"attack_rarity_1": -1,
+		"attack_rarity_2": -1,
+		"attack_rarity_3": -1,
+		"attack_rarity_4": -1,
+		"attack_rarity_5": 4270,
+		"health_rarity_1": -1,
+		"health_rarity_2": -1,
+		"health_rarity_3": -1,
+		"health_rarity_4": -1,
+		"health_rarity_5": 7335
+	}
+	],
+	"crew_rank": [
+		{
+			"rank": 1,
+			"max_level": 20
+		},
+		{
+			"rank": 2,
+			"max_level": 60
+		},
+		{
+			"rank": 3,
+			"max_level": 120
+		},
+		{
+			"rank": 4,
+			"max_level": 200
+		},
+		{
+			"rank": 5,
+			"max_level": 300
+		}
+	]
+}

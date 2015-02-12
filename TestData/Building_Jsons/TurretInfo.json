@@ -1,0 +1,41 @@
+{
+    "user_conditions": [ ],
+    "priority": 0,
+    "name": "default",
+    "date_conditions": [ ],
+    "turrets": 
+    [
+        {
+            "max_range": 140,
+            "type": "DefendingShip",
+            "aoe": 0,
+            "spell_radius": 0,
+            "name": "DefendingShip",
+            "spell_duration": 0,
+            "chance_to_miss": 33,
+            "spell_damage": 0,
+            "level": 1,
+            "fire_delay": 3,
+            "min_range": 0,
+            "ignore_los": "0",
+            "damage": 50,
+            "spell_ticks": 0
+        },
+        {
+            "max_range": 140,
+            "type": "DefendingShip",
+            "aoe": 0,
+            "spell_radius": 0,
+            "name": "DefendingShip",
+            "spell_duration": 0,
+            "chance_to_miss": 33,
+            "spell_damage": 0,
+            "level": 2,
+            "fire_delay": 3,
+            "min_range": 0,
+            "ignore_los": "0",
+            "damage": 75,
+            "spell_ticks": 0
+        }
+    ]
+}

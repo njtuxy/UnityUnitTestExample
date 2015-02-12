@@ -1,0 +1,33 @@
+{
+        "_ts": 1409692899,
+        "buildings": [
+            {
+                "level": 1,
+                "type": "Den",
+                "hp": 400,
+                "energy_when_destroyed": 100,
+                "crew_xp_when_destroyed": 32,
+                "requirement_level_type": "Player",
+                "requirement_level": 1,
+                "build_cost_gold": 20,
+                "build_cost_grog": 30,
+                "build_duration": 0,
+                "player_xp_when_built": 0,
+                "accrual_rate_gold": 0,
+                "accrual_rate_grog": 0,
+                "gold_capacity": 0,
+                "grog_capacity": 0,
+                "gold_storage": 5000,
+                "grog_storage": 5000,
+                "prone_multiplier": 0.2,
+                "footprint_width": 4,
+                "footprint_length": 4
+            }
+        ],
+        "date_conditions": [],
+        "enabled": true,
+        "name": "default",
+        "options": {},
+        "priority": 1,
+        "user_conditions": []
+}

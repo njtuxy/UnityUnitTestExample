@@ -1,0 +1,5514 @@
+{
+	"crew": [
+		{
+			"pirate_id": 1,
+			"pirate_name": "Blackbeard",
+			"pirate_image": "crew_blackbeard",
+			"rarity": 5,
+			"attack_multiplier": 1.25,
+			"health_multiplier": 0.9,
+			"active_type": "REPAIR",
+			"active_value": 15,
+			"resist_type": 1,
+			"pirate_class": 1,
+			"pirate_bio": "Bilge rat gaff wherry galleon topmast Chain Shot hempen halter brig lookout jolly boat. Clipper skysail capstan Sea Legs spanker belaying pin chantey bilge rat Sail ho black jack. ",
+			"pirate_tags": "bearded,pegleg,eyepatch,celebratesmichaelboltonsentirecatalog"
+		},
+		{
+			"pirate_id": 2,
+			"pirate_name": "Long John Silver",
+			"pirate_image": "crew_longjohnsilver",
+			"rarity": 5,
+			"attack_multiplier": 1.23,
+			"health_multiplier": 4.56,
+			"active_type": "SPLASH",
+			"active_value": 23,
+			"resist_type": 1,
+			"pirate_class": 2,
+			"pirate_bio": "Square-rigged Gold Road man-of-war topmast maroon spike line scurvy scourge of the seven seas yawl driver tender splice the main brace. Long clothes black jack crow's nest rutters maroon marooned man-of-war parley walk the plank quarterdeck driver matey chantey. ",
+			"pirate_tags": "fish,chips,maltvinegar"
+		},
+		{
+			"pirate_id": 3,
+			"pirate_name": "The Guy Who Made Napster",
+			"pirate_image": "crew_napster",
+			"rarity": 5,
+			"attack_multiplier": 0.85,
+			"health_multiplier": 1.123,
+			"active_type": "SUMMON_COMPANION",
+			"active_value": 1000,
+			"resist_type": 1,
+			"pirate_class": 3,
+			"pirate_bio": "Bilge rat gaff wherry galleon topmast Chain Shot hempen halter brig lookout jolly boat. Clipper skysail capstan Sea Legs spanker belaying pin chantey bilge rat Sail ho black jack. ",
+			"pirate_tags": "internet,pirate"
+		},
+		{
+			"pirate_id": 4,
+			"pirate_name": "Captain Crunch",
+			"pirate_image": "crew_cerealguy",
+			"rarity": 5,
+			"attack_multiplier": 1.11,
+			"health_multiplier": 2.22,
+			"active_type": "TRAP_SIGHT",
+			"active_value": 20000,
+			"resist_type": 1,
+			"pirate_class": 4,
+			"pirate_bio": "Square-rigged Gold Road man-of-war topmast maroon spike line scurvy scourge of the seven seas yawl driver tender splice the main brace. Long clothes black jack crow's nest rutters maroon marooned man-of-war parley walk the plank quarterdeck driver matey chantey. ",
+			"pirate_tags": "vitaminfortified,sugary"
+		},
+		{
+			"pirate_id": 5,
+			"pirate_name": "Hook",
+			"pirate_image": "crew_dustinhoffman",
+			"rarity": 5,
+			"attack_multiplier": 2.22,
+			"health_multiplier": 3.33,
+			"active_type": "SUMMON_CREATURE",
+			"active_value": 123,
+			"resist_type": 1,
+			"pirate_class": 5,
+			"pirate_bio": "Bilge rat gaff wherry galleon topmast Chain Shot hempen halter brig lookout jolly boat. Clipper skysail capstan Sea Legs spanker belaying pin chantey bilge rat Sail ho black jack. ",
+			"pirate_tags": "hookhand,prettyevil"
+		},
+		{
+			"pirate_id": 6,
+			"pirate_name": "#6",
+			"pirate_image": "crew_theprisoner",
+			"rarity": 5,
+			"attack_multiplier": 1,
+			"health_multiplier": 1,
+			"active_type": "ZODIAC_GOLD_DRAGON",
+			"active_value": 123456,
+			"resist_type": 1,
+			"pirate_class": 6,
+			"pirate_bio": "who is number one?",
+			"pirate_tags": "british,spy"
+		}
+	],
+	"crew_xp": [
+		{
+			"pirate_level": 1,
+			"upgrade_exp": 300,
+			"exp_to_level_up": 300
+		},
+		{
+			"pirate_level": 2,
+			"upgrade_exp": 600,
+			"exp_to_level_up": 302
+		},
+		{
+			"pirate_level": 3,
+			"upgrade_exp": 902,
+			"exp_to_level_up": 305
+		},
+		{
+			"pirate_level": 4,
+			"upgrade_exp": 1207,
+			"exp_to_level_up": 309
+		},
+		{
+			"pirate_level": 5,
+			"upgrade_exp": 1516,
+			"exp_to_level_up": 314
+		},
+		{
+			"pirate_level": 6,
+			"upgrade_exp": 1830,
+			"exp_to_level_up": 320
+		},
+		{
+			"pirate_level": 7,
+			"upgrade_exp": 2150,
+			"exp_to_level_up": 327
+		},
+		{
+			"pirate_level": 8,
+			"upgrade_exp": 2477,
+			"exp_to_level_up": 335
+		},
+		{
+			"pirate_level": 9,
+			"upgrade_exp": 2812,
+			"exp_to_level_up": 344
+		},
+		{
+			"pirate_level": 10,
+			"upgrade_exp": 3156,
+			"exp_to_level_up": 354
+		},
+		{
+			"pirate_level": 11,
+			"upgrade_exp": 3510,
+			"exp_to_level_up": 365
+		},
+		{
+			"pirate_level": 12,
+			"upgrade_exp": 3875,
+			"exp_to_level_up": 377
+		},
+		{
+			"pirate_level": 13,
+			"upgrade_exp": 4252,
+			"exp_to_level_up": 390
+		},
+		{
+			"pirate_level": 14,
+			"upgrade_exp": 4642,
+			"exp_to_level_up": 404
+		},
+		{
+			"pirate_level": 15,
+			"upgrade_exp": 5046,
+			"exp_to_level_up": 419
+		},
+		{
+			"pirate_level": 16,
+			"upgrade_exp": 5465,
+			"exp_to_level_up": 435
+		},
+		{
+			"pirate_level": 17,
+			"upgrade_exp": 5900,
+			"exp_to_level_up": 452
+		},
+		{
+			"pirate_level": 18,
+			"upgrade_exp": 6352,
+			"exp_to_level_up": 470
+		},
+		{
+			"pirate_level": 19,
+			"upgrade_exp": 6822,
+			"exp_to_level_up": 489
+		},
+		{
+			"pirate_level": 20,
+			"upgrade_exp": 7311,
+			"exp_to_level_up": 509
+		},
+		{
+			"pirate_level": 21,
+			"upgrade_exp": 7820,
+			"exp_to_level_up": 551
+		},
+		{
+			"pirate_level": 22,
+			"upgrade_exp": 8371,
+			"exp_to_level_up": 595
+		},
+		{
+			"pirate_level": 23,
+			"upgrade_exp": 8966,
+			"exp_to_level_up": 641
+		},
+		{
+			"pirate_level": 24,
+			"upgrade_exp": 9607,
+			"exp_to_level_up": 689
+		},
+		{
+			"pirate_level": 25,
+			"upgrade_exp": 10296,
+			"exp_to_level_up": 739
+		},
+		{
+			"pirate_level": 26,
+			"upgrade_exp": 11035,
+			"exp_to_level_up": 791
+		},
+		{
+			"pirate_level": 27,
+			"upgrade_exp": 11826,
+			"exp_to_level_up": 845
+		},
+		{
+			"pirate_level": 28,
+			"upgrade_exp": 12671,
+			"exp_to_level_up": 901
+		},
+		{
+			"pirate_level": 29,
+			"upgrade_exp": 13572,
+			"exp_to_level_up": 959
+		},
+		{
+			"pirate_level": 30,
+			"upgrade_exp": 14531,
+			"exp_to_level_up": 1019
+		},
+		{
+			"pirate_level": 31,
+			"upgrade_exp": 15550,
+			"exp_to_level_up": 1081
+		},
+		{
+			"pirate_level": 32,
+			"upgrade_exp": 16631,
+			"exp_to_level_up": 1145
+		},
+		{
+			"pirate_level": 33,
+			"upgrade_exp": 17776,
+			"exp_to_level_up": 1211
+		},
+		{
+			"pirate_level": 34,
+			"upgrade_exp": 18987,
+			"exp_to_level_up": 1279
+		},
+		{
+			"pirate_level": 35,
+			"upgrade_exp": 20266,
+			"exp_to_level_up": 1349
+		},
+		{
+			"pirate_level": 36,
+			"upgrade_exp": 21615,
+			"exp_to_level_up": 1421
+		},
+		{
+			"pirate_level": 37,
+			"upgrade_exp": 23036,
+			"exp_to_level_up": 1495
+		},
+		{
+			"pirate_level": 38,
+			"upgrade_exp": 24531,
+			"exp_to_level_up": 1571
+		},
+		{
+			"pirate_level": 39,
+			"upgrade_exp": 26102,
+			"exp_to_level_up": 1649
+		},
+		{
+			"pirate_level": 40,
+			"upgrade_exp": 27751,
+			"exp_to_level_up": 1729
+		},
+		{
+			"pirate_level": 41,
+			"upgrade_exp": 29480,
+			"exp_to_level_up": 1811
+		},
+		{
+			"pirate_level": 42,
+			"upgrade_exp": 31291,
+			"exp_to_level_up": 1895
+		},
+		{
+			"pirate_level": 43,
+			"upgrade_exp": 33186,
+			"exp_to_level_up": 1981
+		},
+		{
+			"pirate_level": 44,
+			"upgrade_exp": 35167,
+			"exp_to_level_up": 2069
+		},
+		{
+			"pirate_level": 45,
+			"upgrade_exp": 37236,
+			"exp_to_level_up": 2159
+		},
+		{
+			"pirate_level": 46,
+			"upgrade_exp": 39395,
+			"exp_to_level_up": 2251
+		},
+		{
+			"pirate_level": 47,
+			"upgrade_exp": 41646,
+			"exp_to_level_up": 2345
+		},
+		{
+			"pirate_level": 48,
+			"upgrade_exp": 43991,
+			"exp_to_level_up": 2441
+		},
+		{
+			"pirate_level": 49,
+			"upgrade_exp": 46432,
+			"exp_to_level_up": 2539
+		},
+		{
+			"pirate_level": 50,
+			"upgrade_exp": 48971,
+			"exp_to_level_up": 2639
+		},
+		{
+			"pirate_level": 51,
+			"upgrade_exp": 51610,
+			"exp_to_level_up": 2741
+		},
+		{
+			"pirate_level": 52,
+			"upgrade_exp": 54351,
+			"exp_to_level_up": 2845
+		},
+		{
+			"pirate_level": 53,
+			"upgrade_exp": 57196,
+			"exp_to_level_up": 2951
+		},
+		{
+			"pirate_level": 54,
+			"upgrade_exp": 60147,
+			"exp_to_level_up": 3059
+		},
+		{
+			"pirate_level": 55,
+			"upgrade_exp": 63206,
+			"exp_to_level_up": 3169
+		},
+		{
+			"pirate_level": 56,
+			"upgrade_exp": 66375,
+			"exp_to_level_up": 3281
+		},
+		{
+			"pirate_level": 57,
+			"upgrade_exp": 69656,
+			"exp_to_level_up": 3395
+		},
+		{
+			"pirate_level": 58,
+			"upgrade_exp": 73051,
+			"exp_to_level_up": 3511
+		},
+		{
+			"pirate_level": 59,
+			"upgrade_exp": 76562,
+			"exp_to_level_up": 3629
+		},
+		{
+			"pirate_level": 60,
+			"upgrade_exp": 80191,
+			"exp_to_level_up": 3749
+		},
+		{
+			"pirate_level": 61,
+			"upgrade_exp": 83940,
+			"exp_to_level_up": 3932
+		},
+		{
+			"pirate_level": 62,
+			"upgrade_exp": 87872,
+			"exp_to_level_up": 4118
+		},
+		{
+			"pirate_level": 63,
+			"upgrade_exp": 91990,
+			"exp_to_level_up": 4307
+		},
+		{
+			"pirate_level": 64,
+			"upgrade_exp": 96297,
+			"exp_to_level_up": 4499
+		},
+		{
+			"pirate_level": 65,
+			"upgrade_exp": 100796,
+			"exp_to_level_up": 4694
+		},
+		{
+			"pirate_level": 66,
+			"upgrade_exp": 105490,
+			"exp_to_level_up": 4892
+		},
+		{
+			"pirate_level": 67,
+			"upgrade_exp": 110382,
+			"exp_to_level_up": 5093
+		},
+		{
+			"pirate_level": 68,
+			"upgrade_exp": 115475,
+			"exp_to_level_up": 5297
+		},
+		{
+			"pirate_level": 69,
+			"upgrade_exp": 120772,
+			"exp_to_level_up": 5504
+		},
+		{
+			"pirate_level": 70,
+			"upgrade_exp": 126276,
+			"exp_to_level_up": 5714
+		},
+		{
+			"pirate_level": 71,
+			"upgrade_exp": 131990,
+			"exp_to_level_up": 5927
+		},
+		{
+			"pirate_level": 72,
+			"upgrade_exp": 137917,
+			"exp_to_level_up": 6143
+		},
+		{
+			"pirate_level": 73,
+			"upgrade_exp": 144060,
+			"exp_to_level_up": 6362
+		},
+		{
+			"pirate_level": 74,
+			"upgrade_exp": 150422,
+			"exp_to_level_up": 6584
+		},
+		{
+			"pirate_level": 75,
+			"upgrade_exp": 157006,
+			"exp_to_level_up": 6809
+		},
+		{
+			"pirate_level": 76,
+			"upgrade_exp": 163815,
+			"exp_to_level_up": 7037
+		},
+		{
+			"pirate_level": 77,
+			"upgrade_exp": 170852,
+			"exp_to_level_up": 7268
+		},
+		{
+			"pirate_level": 78,
+			"upgrade_exp": 178120,
+			"exp_to_level_up": 7502
+		},
+		{
+			"pirate_level": 79,
+			"upgrade_exp": 185622,
+			"exp_to_level_up": 7739
+		},
+		{
+			"pirate_level": 80,
+			"upgrade_exp": 193361,
+			"exp_to_level_up": 7979
+		},
+		{
+			"pirate_level": 81,
+			"upgrade_exp": 201340,
+			"exp_to_level_up": 8222
+		},
+		{
+			"pirate_level": 82,
+			"upgrade_exp": 209562,
+			"exp_to_level_up": 8468
+		},
+		{
+			"pirate_level": 83,
+			"upgrade_exp": 218030,
+			"exp_to_level_up": 8717
+		},
+		{
+			"pirate_level": 84,
+			"upgrade_exp": 226747,
+			"exp_to_level_up": 8969
+		},
+		{
+			"pirate_level": 85,
+			"upgrade_exp": 235716,
+			"exp_to_level_up": 9224
+		},
+		{
+			"pirate_level": 86,
+			"upgrade_exp": 244940,
+			"exp_to_level_up": 9482
+		},
+		{
+			"pirate_level": 87,
+			"upgrade_exp": 254422,
+			"exp_to_level_up": 9743
+		},
+		{
+			"pirate_level": 88,
+			"upgrade_exp": 264165,
+			"exp_to_level_up": 10007
+		},
+		{
+			"pirate_level": 89,
+			"upgrade_exp": 274172,
+			"exp_to_level_up": 10274
+		},
+		{
+			"pirate_level": 90,
+			"upgrade_exp": 284446,
+			"exp_to_level_up": 10544
+		},
+		{
+			"pirate_level": 91,
+			"upgrade_exp": 294990,
+			"exp_to_level_up": 10817
+		},
+		{
+			"pirate_level": 92,
+			"upgrade_exp": 305807,
+			"exp_to_level_up": 11093
+		},
+		{
+			"pirate_level": 93,
+			"upgrade_exp": 316900,
+			"exp_to_level_up": 11372
+		},
+		{
+			"pirate_level": 94,
+			"upgrade_exp": 328272,
+			"exp_to_level_up": 11654
+		},
+		{
+			"pirate_level": 95,
+			"upgrade_exp": 339926,
+			"exp_to_level_up": 11939
+		},
+		{
+			"pirate_level": 96,
+			"upgrade_exp": 351865,
+			"exp_to_level_up": 12227
+		},
+		{
+			"pirate_level": 97,
+			"upgrade_exp": 364092,
+			"exp_to_level_up": 12518
+		},
+		{
+			"pirate_level": 98,
+			"upgrade_exp": 376610,
+			"exp_to_level_up": 12812
+		},
+		{
+			"pirate_level": 99,
+			"upgrade_exp": 389422,
+			"exp_to_level_up": 13109
+		},
+		{
+			"pirate_level": 100,
+			"upgrade_exp": 402531,
+			"exp_to_level_up": 13409
+		},
+		{
+			"pirate_level": 101,
+			"upgrade_exp": 415940,
+			"exp_to_level_up": 13712
+		},
+		{
+			"pirate_level": 102,
+			"upgrade_exp": 429652,
+			"exp_to_level_up": 14018
+		},
+		{
+			"pirate_level": 103,
+			"upgrade_exp": 443670,
+			"exp_to_level_up": 14327
+		},
+		{
+			"pirate_level": 104,
+			"upgrade_exp": 457997,
+			"exp_to_level_up": 14639
+		},
+		{
+			"pirate_level": 105,
+			"upgrade_exp": 472636,
+			"exp_to_level_up": 14954
+		},
+		{
+			"pirate_level": 106,
+			"upgrade_exp": 487590,
+			"exp_to_level_up": 15272
+		},
+		{
+			"pirate_level": 107,
+			"upgrade_exp": 502862,
+			"exp_to_level_up": 15593
+		},
+		{
+			"pirate_level": 108,
+			"upgrade_exp": 518455,
+			"exp_to_level_up": 15917
+		},
+		{
+			"pirate_level": 109,
+			"upgrade_exp": 534372,
+			"exp_to_level_up": 16244
+		},
+		{
+			"pirate_level": 110,
+			"upgrade_exp": 550616,
+			"exp_to_level_up": 16574
+		},
+		{
+			"pirate_level": 111,
+			"upgrade_exp": 567190,
+			"exp_to_level_up": 16907
+		},
+		{
+			"pirate_level": 112,
+			"upgrade_exp": 584097,
+			"exp_to_level_up": 17243
+		},
+		{
+			"pirate_level": 113,
+			"upgrade_exp": 601340,
+			"exp_to_level_up": 17582
+		},
+		{
+			"pirate_level": 114,
+			"upgrade_exp": 618922,
+			"exp_to_level_up": 17924
+		},
+		{
+			"pirate_level": 115,
+			"upgrade_exp": 636846,
+			"exp_to_level_up": 18269
+		},
+		{
+			"pirate_level": 116,
+			"upgrade_exp": 655115,
+			"exp_to_level_up": 18617
+		},
+		{
+			"pirate_level": 117,
+			"upgrade_exp": 673732,
+			"exp_to_level_up": 18968
+		},
+		{
+			"pirate_level": 118,
+			"upgrade_exp": 692700,
+			"exp_to_level_up": 19322
+		},
+		{
+			"pirate_level": 119,
+			"upgrade_exp": 712022,
+			"exp_to_level_up": 19679
+		},
+		{
+			"pirate_level": 120,
+			"upgrade_exp": 731701,
+			"exp_to_level_up": 20039
+		},
+		{
+			"pirate_level": 121,
+			"upgrade_exp": 751740,
+			"exp_to_level_up": 20523
+		},
+		{
+			"pirate_level": 122,
+			"upgrade_exp": 772263,
+			"exp_to_level_up": 21011
+		},
+		{
+			"pirate_level": 123,
+			"upgrade_exp": 793274,
+			"exp_to_level_up": 21503
+		},
+		{
+			"pirate_level": 124,
+			"upgrade_exp": 814777,
+			"exp_to_level_up": 21999
+		},
+		{
+			"pirate_level": 125,
+			"upgrade_exp": 836776,
+			"exp_to_level_up": 22499
+		},
+		{
+			"pirate_level": 126,
+			"upgrade_exp": 859275,
+			"exp_to_level_up": 23003
+		},
+		{
+			"pirate_level": 127,
+			"upgrade_exp": 882278,
+			"exp_to_level_up": 23511
+		},
+		{
+			"pirate_level": 128,
+			"upgrade_exp": 905789,
+			"exp_to_level_up": 24023
+		},
+		{
+			"pirate_level": 129,
+			"upgrade_exp": 929812,
+			"exp_to_level_up": 24539
+		},
+		{
+			"pirate_level": 130,
+			"upgrade_exp": 954351,
+			"exp_to_level_up": 25059
+		},
+		{
+			"pirate_level": 131,
+			"upgrade_exp": 979410,
+			"exp_to_level_up": 25583
+		},
+		{
+			"pirate_level": 132,
+			"upgrade_exp": 1004993,
+			"exp_to_level_up": 26111
+		},
+		{
+			"pirate_level": 133,
+			"upgrade_exp": 1031104,
+			"exp_to_level_up": 26643
+		},
+		{
+			"pirate_level": 134,
+			"upgrade_exp": 1057747,
+			"exp_to_level_up": 27179
+		},
+		{
+			"pirate_level": 135,
+			"upgrade_exp": 1084926,
+			"exp_to_level_up": 27719
+		},
+		{
+			"pirate_level": 136,
+			"upgrade_exp": 1112645,
+			"exp_to_level_up": 28263
+		},
+		{
+			"pirate_level": 137,
+			"upgrade_exp": 1140908,
+			"exp_to_level_up": 28811
+		},
+		{
+			"pirate_level": 138,
+			"upgrade_exp": 1169719,
+			"exp_to_level_up": 29363
+		},
+		{
+			"pirate_level": 139,
+			"upgrade_exp": 1199082,
+			"exp_to_level_up": 29919
+		},
+		{
+			"pirate_level": 140,
+			"upgrade_exp": 1229001,
+			"exp_to_level_up": 30479
+		},
+		{
+			"pirate_level": 141,
+			"upgrade_exp": 1259480,
+			"exp_to_level_up": 31043
+		},
+		{
+			"pirate_level": 142,
+			"upgrade_exp": 1290523,
+			"exp_to_level_up": 31611
+		},
+		{
+			"pirate_level": 143,
+			"upgrade_exp": 1322134,
+			"exp_to_level_up": 32183
+		},
+		{
+			"pirate_level": 144,
+			"upgrade_exp": 1354317,
+			"exp_to_level_up": 32759
+		},
+		{
+			"pirate_level": 145,
+			"upgrade_exp": 1387076,
+			"exp_to_level_up": 33339
+		},
+		{
+			"pirate_level": 146,
+			"upgrade_exp": 1420415,
+			"exp_to_level_up": 33923
+		},
+		{
+			"pirate_level": 147,
+			"upgrade_exp": 1454338,
+			"exp_to_level_up": 34511
+		},
+		{
+			"pirate_level": 148,
+			"upgrade_exp": 1488849,
+			"exp_to_level_up": 35103
+		},
+		{
+			"pirate_level": 149,
+			"upgrade_exp": 1523952,
+			"exp_to_level_up": 35699
+		},
+		{
+			"pirate_level": 150,
+			"upgrade_exp": 1559651,
+			"exp_to_level_up": 36299
+		},
+		{
+			"pirate_level": 151,
+			"upgrade_exp": 1595950,
+			"exp_to_level_up": 36903
+		},
+		{
+			"pirate_level": 152,
+			"upgrade_exp": 1632853,
+			"exp_to_level_up": 37511
+		},
+		{
+			"pirate_level": 153,
+			"upgrade_exp": 1670364,
+			"exp_to_level_up": 38123
+		},
+		{
+			"pirate_level": 154,
+			"upgrade_exp": 1708487,
+			"exp_to_level_up": 38739
+		},
+		{
+			"pirate_level": 155,
+			"upgrade_exp": 1747226,
+			"exp_to_level_up": 39359
+		},
+		{
+			"pirate_level": 156,
+			"upgrade_exp": 1786585,
+			"exp_to_level_up": 39983
+		},
+		{
+			"pirate_level": 157,
+			"upgrade_exp": 1826568,
+			"exp_to_level_up": 40611
+		},
+		{
+			"pirate_level": 158,
+			"upgrade_exp": 1867179,
+			"exp_to_level_up": 41243
+		},
+		{
+			"pirate_level": 159,
+			"upgrade_exp": 1908422,
+			"exp_to_level_up": 41879
+		},
+		{
+			"pirate_level": 160,
+			"upgrade_exp": 1950301,
+			"exp_to_level_up": 42519
+		},
+		{
+			"pirate_level": 161,
+			"upgrade_exp": 1992820,
+			"exp_to_level_up": 43163
+		},
+		{
+			"pirate_level": 162,
+			"upgrade_exp": 2035983,
+			"exp_to_level_up": 43811
+		},
+		{
+			"pirate_level": 163,
+			"upgrade_exp": 2079794,
+			"exp_to_level_up": 44463
+		},
+		{
+			"pirate_level": 164,
+			"upgrade_exp": 2124257,
+			"exp_to_level_up": 45119
+		},
+		{
+			"pirate_level": 165,
+			"upgrade_exp": 2169376,
+			"exp_to_level_up": 45779
+		},
+		{
+			"pirate_level": 166,
+			"upgrade_exp": 2215155,
+			"exp_to_level_up": 46443
+		},
+		{
+			"pirate_level": 167,
+			"upgrade_exp": 2261598,
+			"exp_to_level_up": 47111
+		},
+		{
+			"pirate_level": 168,
+			"upgrade_exp": 2308709,
+			"exp_to_level_up": 47783
+		},
+		{
+			"pirate_level": 169,
+			"upgrade_exp": 2356492,
+			"exp_to_level_up": 48459
+		},
+		{
+			"pirate_level": 170,
+			"upgrade_exp": 2404951,
+			"exp_to_level_up": 49139
+		},
+		{
+			"pirate_level": 171,
+			"upgrade_exp": 2454090,
+			"exp_to_level_up": 49823
+		},
+		{
+			"pirate_level": 172,
+			"upgrade_exp": 2503913,
+			"exp_to_level_up": 50511
+		},
+		{
+			"pirate_level": 173,
+			"upgrade_exp": 2554424,
+			"exp_to_level_up": 51203
+		},
+		{
+			"pirate_level": 174,
+			"upgrade_exp": 2605627,
+			"exp_to_level_up": 51899
+		},
+		{
+			"pirate_level": 175,
+			"upgrade_exp": 2657526,
+			"exp_to_level_up": 52599
+		},
+		{
+			"pirate_level": 176,
+			"upgrade_exp": 2710125,
+			"exp_to_level_up": 53303
+		},
+		{
+			"pirate_level": 177,
+			"upgrade_exp": 2763428,
+			"exp_to_level_up": 54011
+		},
+		{
+			"pirate_level": 178,
+			"upgrade_exp": 2817439,
+			"exp_to_level_up": 54723
+		},
+		{
+			"pirate_level": 179,
+			"upgrade_exp": 2872162,
+			"exp_to_level_up": 55439
+		},
+		{
+			"pirate_level": 180,
+			"upgrade_exp": 2927601,
+			"exp_to_level_up": 56159
+		},
+		{
+			"pirate_level": 181,
+			"upgrade_exp": 2983760,
+			"exp_to_level_up": 56883
+		},
+		{
+			"pirate_level": 182,
+			"upgrade_exp": 3040643,
+			"exp_to_level_up": 57611
+		},
+		{
+			"pirate_level": 183,
+			"upgrade_exp": 3098254,
+			"exp_to_level_up": 58343
+		},
+		{
+			"pirate_level": 184,
+			"upgrade_exp": 3156597,
+			"exp_to_level_up": 59079
+		},
+		{
+			"pirate_level": 185,
+			"upgrade_exp": 3215676,
+			"exp_to_level_up": 59819
+		},
+		{
+			"pirate_level": 186,
+			"upgrade_exp": 3275495,
+			"exp_to_level_up": 60563
+		},
+		{
+			"pirate_level": 187,
+			"upgrade_exp": 3336058,
+			"exp_to_level_up": 61311
+		},
+		{
+			"pirate_level": 188,
+			"upgrade_exp": 3397369,
+			"exp_to_level_up": 62063
+		},
+		{
+			"pirate_level": 189,
+			"upgrade_exp": 3459432,
+			"exp_to_level_up": 62819
+		},
+		{
+			"pirate_level": 190,
+			"upgrade_exp": 3522251,
+			"exp_to_level_up": 63579
+		},
+		{
+			"pirate_level": 191,
+			"upgrade_exp": 3585830,
+			"exp_to_level_up": 64343
+		},
+		{
+			"pirate_level": 192,
+			"upgrade_exp": 3650173,
+			"exp_to_level_up": 65111
+		},
+		{
+			"pirate_level": 193,
+			"upgrade_exp": 3715284,
+			"exp_to_level_up": 65883
+		},
+		{
+			"pirate_level": 194,
+			"upgrade_exp": 3781167,
+			"exp_to_level_up": 66659
+		},
+		{
+			"pirate_level": 195,
+			"upgrade_exp": 3847826,
+			"exp_to_level_up": 67439
+		},
+		{
+			"pirate_level": 196,
+			"upgrade_exp": 3915265,
+			"exp_to_level_up": 68223
+		},
+		{
+			"pirate_level": 197,
+			"upgrade_exp": 3983488,
+			"exp_to_level_up": 69011
+		},
+		{
+			"pirate_level": 198,
+			"upgrade_exp": 4052499,
+			"exp_to_level_up": 69803
+		},
+		{
+			"pirate_level": 199,
+			"upgrade_exp": 4122302,
+			"exp_to_level_up": 70599
+		},
+		{
+			"pirate_level": 200,
+			"upgrade_exp": 4192901,
+			"exp_to_level_up": 71399
+		},
+		{
+			"pirate_level": 201,
+			"upgrade_exp": 4264300,
+			"exp_to_level_up": 72404
+		},
+		{
+			"pirate_level": 202,
+			"upgrade_exp": 4336704,
+			"exp_to_level_up": 73414
+		},
+		{
+			"pirate_level": 203,
+			"upgrade_exp": 4410118,
+			"exp_to_level_up": 74429
+		},
+		{
+			"pirate_level": 204,
+			"upgrade_exp": 4484547,
+			"exp_to_level_up": 75449
+		},
+		{
+			"pirate_level": 205,
+			"upgrade_exp": 4559996,
+			"exp_to_level_up": 76474
+		},
+		{
+			"pirate_level": 206,
+			"upgrade_exp": 4636470,
+			"exp_to_level_up": 77504
+		},
+		{
+			"pirate_level": 207,
+			"upgrade_exp": 4713974,
+			"exp_to_level_up": 78539
+		},
+		{
+			"pirate_level": 208,
+			"upgrade_exp": 4792513,
+			"exp_to_level_up": 79579
+		},
+		{
+			"pirate_level": 209,
+			"upgrade_exp": 4872092,
+			"exp_to_level_up": 80624
+		},
+		{
+			"pirate_level": 210,
+			"upgrade_exp": 4952716,
+			"exp_to_level_up": 81674
+		},
+		{
+			"pirate_level": 211,
+			"upgrade_exp": 5034390,
+			"exp_to_level_up": 82729
+		},
+		{
+			"pirate_level": 212,
+			"upgrade_exp": 5117119,
+			"exp_to_level_up": 83789
+		},
+		{
+			"pirate_level": 213,
+			"upgrade_exp": 5200908,
+			"exp_to_level_up": 84854
+		},
+		{
+			"pirate_level": 214,
+			"upgrade_exp": 5285762,
+			"exp_to_level_up": 85924
+		},
+		{
+			"pirate_level": 215,
+			"upgrade_exp": 5371686,
+			"exp_to_level_up": 86999
+		},
+		{
+			"pirate_level": 216,
+			"upgrade_exp": 5458685,
+			"exp_to_level_up": 88079
+		},
+		{
+			"pirate_level": 217,
+			"upgrade_exp": 5546764,
+			"exp_to_level_up": 89164
+		},
+		{
+			"pirate_level": 218,
+			"upgrade_exp": 5635928,
+			"exp_to_level_up": 90254
+		},
+		{
+			"pirate_level": 219,
+			"upgrade_exp": 5726182,
+			"exp_to_level_up": 91349
+		},
+		{
+			"pirate_level": 220,
+			"upgrade_exp": 5817531,
+			"exp_to_level_up": 92449
+		},
+		{
+			"pirate_level": 221,
+			"upgrade_exp": 5909980,
+			"exp_to_level_up": 93554
+		},
+		{
+			"pirate_level": 222,
+			"upgrade_exp": 6003534,
+			"exp_to_level_up": 94664
+		},
+		{
+			"pirate_level": 223,
+			"upgrade_exp": 6098198,
+			"exp_to_level_up": 95779
+		},
+		{
+			"pirate_level": 224,
+			"upgrade_exp": 6193977,
+			"exp_to_level_up": 96899
+		},
+		{
+			"pirate_level": 225,
+			"upgrade_exp": 6290876,
+			"exp_to_level_up": 98024
+		},
+		{
+			"pirate_level": 226,
+			"upgrade_exp": 6388900,
+			"exp_to_level_up": 99154
+		},
+		{
+			"pirate_level": 227,
+			"upgrade_exp": 6488054,
+			"exp_to_level_up": 100289
+		},
+		{
+			"pirate_level": 228,
+			"upgrade_exp": 6588343,
+			"exp_to_level_up": 101429
+		},
+		{
+			"pirate_level": 229,
+			"upgrade_exp": 6689772,
+			"exp_to_level_up": 102574
+		},
+		{
+			"pirate_level": 230,
+			"upgrade_exp": 6792346,
+			"exp_to_level_up": 103724
+		},
+		{
+			"pirate_level": 231,
+			"upgrade_exp": 6896070,
+			"exp_to_level_up": 104879
+		},
+		{
+			"pirate_level": 232,
+			"upgrade_exp": 7000949,
+			"exp_to_level_up": 106039
+		},
+		{
+			"pirate_level": 233,
+			"upgrade_exp": 7106988,
+			"exp_to_level_up": 107204
+		},
+		{
+			"pirate_level": 234,
+			"upgrade_exp": 7214192,
+			"exp_to_level_up": 108374
+		},
+		{
+			"pirate_level": 235,
+			"upgrade_exp": 7322566,
+			"exp_to_level_up": 109549
+		},
+		{
+			"pirate_level": 236,
+			"upgrade_exp": 7432115,
+			"exp_to_level_up": 110729
+		},
+		{
+			"pirate_level": 237,
+			"upgrade_exp": 7542844,
+			"exp_to_level_up": 111914
+		},
+		{
+			"pirate_level": 238,
+			"upgrade_exp": 7654758,
+			"exp_to_level_up": 113104
+		},
+		{
+			"pirate_level": 239,
+			"upgrade_exp": 7767862,
+			"exp_to_level_up": 114299
+		},
+		{
+			"pirate_level": 240,
+			"upgrade_exp": 7882161,
+			"exp_to_level_up": 115499
+		},
+		{
+			"pirate_level": 241,
+			"upgrade_exp": 7997660,
+			"exp_to_level_up": 116704
+		},
+		{
+			"pirate_level": 242,
+			"upgrade_exp": 8114364,
+			"exp_to_level_up": 117914
+		},
+		{
+			"pirate_level": 243,
+			"upgrade_exp": 8232278,
+			"exp_to_level_up": 119129
+		},
+		{
+			"pirate_level": 244,
+			"upgrade_exp": 8351407,
+			"exp_to_level_up": 120349
+		},
+		{
+			"pirate_level": 245,
+			"upgrade_exp": 8471756,
+			"exp_to_level_up": 121574
+		},
+		{
+			"pirate_level": 246,
+			"upgrade_exp": 8593330,
+			"exp_to_level_up": 122804
+		},
+		{
+			"pirate_level": 247,
+			"upgrade_exp": 8716134,
+			"exp_to_level_up": 124039
+		},
+		{
+			"pirate_level": 248,
+			"upgrade_exp": 8840173,
+			"exp_to_level_up": 125279
+		},
+		{
+			"pirate_level": 249,
+			"upgrade_exp": 8965452,
+			"exp_to_level_up": 126524
+		},
+		{
+			"pirate_level": 250,
+			"upgrade_exp": 9091976,
+			"exp_to_level_up": 127774
+		},
+		{
+			"pirate_level": 251,
+			"upgrade_exp": 9219750,
+			"exp_to_level_up": 129029
+		},
+		{
+			"pirate_level": 252,
+			"upgrade_exp": 9348779,
+			"exp_to_level_up": 130289
+		},
+		{
+			"pirate_level": 253,
+			"upgrade_exp": 9479068,
+			"exp_to_level_up": 131554
+		},
+		{
+			"pirate_level": 254,
+			"upgrade_exp": 9610622,
+			"exp_to_level_up": 132824
+		},
+		{
+			"pirate_level": 255,
+			"upgrade_exp": 9743446,
+			"exp_to_level_up": 134099
+		},
+		{
+			"pirate_level": 256,
+			"upgrade_exp": 9877545,
+			"exp_to_level_up": 135379
+		},
+		{
+			"pirate_level": 257,
+			"upgrade_exp": 10012924,
+			"exp_to_level_up": 136664
+		},
+		{
+			"pirate_level": 258,
+			"upgrade_exp": 10149588,
+			"exp_to_level_up": 137954
+		},
+		{
+			"pirate_level": 259,
+			"upgrade_exp": 10287542,
+			"exp_to_level_up": 139249
+		},
+		{
+			"pirate_level": 260,
+			"upgrade_exp": 10426791,
+			"exp_to_level_up": 140549
+		},
+		{
+			"pirate_level": 261,
+			"upgrade_exp": 10567340,
+			"exp_to_level_up": 141854
+		},
+		{
+			"pirate_level": 262,
+			"upgrade_exp": 10709194,
+			"exp_to_level_up": 143164
+		},
+		{
+			"pirate_level": 263,
+			"upgrade_exp": 10852358,
+			"exp_to_level_up": 144479
+		},
+		{
+			"pirate_level": 264,
+			"upgrade_exp": 10996837,
+			"exp_to_level_up": 145799
+		},
+		{
+			"pirate_level": 265,
+			"upgrade_exp": 11142636,
+			"exp_to_level_up": 147124
+		},
+		{
+			"pirate_level": 266,
+			"upgrade_exp": 11289760,
+			"exp_to_level_up": 148454
+		},
+		{
+			"pirate_level": 267,
+			"upgrade_exp": 11438214,
+			"exp_to_level_up": 149789
+		},
+		{
+			"pirate_level": 268,
+			"upgrade_exp": 11588003,
+			"exp_to_level_up": 151129
+		},
+		{
+			"pirate_level": 269,
+			"upgrade_exp": 11739132,
+			"exp_to_level_up": 152474
+		},
+		{
+			"pirate_level": 270,
+			"upgrade_exp": 11891606,
+			"exp_to_level_up": 153824
+		},
+		{
+			"pirate_level": 271,
+			"upgrade_exp": 12045430,
+			"exp_to_level_up": 155179
+		},
+		{
+			"pirate_level": 272,
+			"upgrade_exp": 12200609,
+			"exp_to_level_up": 156539
+		},
+		{
+			"pirate_level": 273,
+			"upgrade_exp": 12357148,
+			"exp_to_level_up": 157904
+		},
+		{
+			"pirate_level": 274,
+			"upgrade_exp": 12515052,
+			"exp_to_level_up": 159274
+		},
+		{
+			"pirate_level": 275,
+			"upgrade_exp": 12674326,
+			"exp_to_level_up": 160649
+		},
+		{
+			"pirate_level": 276,
+			"upgrade_exp": 12834975,
+			"exp_to_level_up": 162029
+		},
+		{
+			"pirate_level": 277,
+			"upgrade_exp": 12997004,
+			"exp_to_level_up": 163414
+		},
+		{
+			"pirate_level": 278,
+			"upgrade_exp": 13160418,
+			"exp_to_level_up": 164804
+		},
+		{
+			"pirate_level": 279,
+			"upgrade_exp": 13325222,
+			"exp_to_level_up": 166199
+		},
+		{
+			"pirate_level": 280,
+			"upgrade_exp": 13491421,
+			"exp_to_level_up": 167599
+		},
+		{
+			"pirate_level": 281,
+			"upgrade_exp": 13659020,
+			"exp_to_level_up": 169004
+		},
+		{
+			"pirate_level": 282,
+			"upgrade_exp": 13828024,
+			"exp_to_level_up": 170414
+		},
+		{
+			"pirate_level": 283,
+			"upgrade_exp": 13998438,
+			"exp_to_level_up": 171829
+		},
+		{
+			"pirate_level": 284,
+			"upgrade_exp": 14170267,
+			"exp_to_level_up": 173249
+		},
+		{
+			"pirate_level": 285,
+			"upgrade_exp": 14343516,
+			"exp_to_level_up": 174674
+		},
+		{
+			"pirate_level": 286,
+			"upgrade_exp": 14518190,
+			"exp_to_level_up": 176104
+		},
+		{
+			"pirate_level": 287,
+			"upgrade_exp": 14694294,
+			"exp_to_level_up": 177539
+		},
+		{
+			"pirate_level": 288,
+			"upgrade_exp": 14871833,
+			"exp_to_level_up": 178979
+		},
+		{
+			"pirate_level": 289,
+			"upgrade_exp": 15050812,
+			"exp_to_level_up": 180424
+		},
+		{
+			"pirate_level": 290,
+			"upgrade_exp": 15231236,
+			"exp_to_level_up": 181874
+		},
+		{
+			"pirate_level": 291,
+			"upgrade_exp": 15413110,
+			"exp_to_level_up": 183329
+		},
+		{
+			"pirate_level": 292,
+			"upgrade_exp": 15596439,
+			"exp_to_level_up": 184789
+		},
+		{
+			"pirate_level": 293,
+			"upgrade_exp": 15781228,
+			"exp_to_level_up": 186254
+		},
+		{
+			"pirate_level": 294,
+			"upgrade_exp": 15967482,
+			"exp_to_level_up": 187724
+		},
+		{
+			"pirate_level": 295,
+			"upgrade_exp": 16155206,
+			"exp_to_level_up": 189199
+		},
+		{
+			"pirate_level": 296,
+			"upgrade_exp": 16344405,
+			"exp_to_level_up": 190679
+		},
+		{
+			"pirate_level": 297,
+			"upgrade_exp": 16535084,
+			"exp_to_level_up": 192164
+		},
+		{
+			"pirate_level": 298,
+			"upgrade_exp": 16727248,
+			"exp_to_level_up": 193654
+		},
+		{
+			"pirate_level": 299,
+			"upgrade_exp": 16920902,
+			"exp_to_level_up": 195149
+		},
+		{
+			"pirate_level": 300,
+			"upgrade_exp": 17116051,
+			"exp_to_level_up": 0
+		}
+	],
+	"crew_base_stats": [
+		{
+			"pirate_level": 1,
+			"attack_rarity_1": 15,
+			"attack_rarity_2": 18,
+			"attack_rarity_3": 23,
+			"attack_rarity_4": 29,
+			"attack_rarity_5": 36,
+			"health_rarity_1": 225,
+			"health_rarity_2": 255,
+			"health_rarity_3": 300,
+			"health_rarity_4": 360,
+			"health_rarity_5": 435
+		},
+		{
+			"pirate_level": 2,
+			"attack_rarity_1": 16,
+			"attack_rarity_2": 19,
+			"attack_rarity_3": 24,
+			"attack_rarity_4": 30,
+			"attack_rarity_5": 37,
+			"health_rarity_1": 227,
+			"health_rarity_2": 257,
+			"health_rarity_3": 302,
+			"health_rarity_4": 362,
+			"health_rarity_5": 437
+		},
+		{
+			"pirate_level": 3,
+			"attack_rarity_1": 17,
+			"attack_rarity_2": 20,
+			"attack_rarity_3": 25,
+			"attack_rarity_4": 31,
+			"attack_rarity_5": 38,
+			"health_rarity_1": 230,
+			"health_rarity_2": 260,
+			"health_rarity_3": 305,
+			"health_rarity_4": 365,
+			"health_rarity_5": 440
+		},
+		{
+			"pirate_level": 4,
+			"attack_rarity_1": 19,
+			"attack_rarity_2": 22,
+			"attack_rarity_3": 26,
+			"attack_rarity_4": 32,
+			"attack_rarity_5": 40,
+			"health_rarity_1": 233,
+			"health_rarity_2": 263,
+			"health_rarity_3": 308,
+			"health_rarity_4": 368,
+			"health_rarity_5": 443
+		},
+		{
+			"pirate_level": 5,
+			"attack_rarity_1": 21,
+			"attack_rarity_2": 24,
+			"attack_rarity_3": 28,
+			"attack_rarity_4": 34,
+			"attack_rarity_5": 42,
+			"health_rarity_1": 236,
+			"health_rarity_2": 266,
+			"health_rarity_3": 311,
+			"health_rarity_4": 371,
+			"health_rarity_5": 446
+		},
+		{
+			"pirate_level": 6,
+			"attack_rarity_1": 22,
+			"attack_rarity_2": 25,
+			"attack_rarity_3": 30,
+			"attack_rarity_4": 36,
+			"attack_rarity_5": 43,
+			"health_rarity_1": 240,
+			"health_rarity_2": 270,
+			"health_rarity_3": 315,
+			"health_rarity_4": 375,
+			"health_rarity_5": 450
+		},
+		{
+			"pirate_level": 7,
+			"attack_rarity_1": 24,
+			"attack_rarity_2": 27,
+			"attack_rarity_3": 32,
+			"attack_rarity_4": 38,
+			"attack_rarity_5": 45,
+			"health_rarity_1": 244,
+			"health_rarity_2": 274,
+			"health_rarity_3": 319,
+			"health_rarity_4": 379,
+			"health_rarity_5": 454
+		},
+		{
+			"pirate_level": 8,
+			"attack_rarity_1": 26,
+			"attack_rarity_2": 29,
+			"attack_rarity_3": 34,
+			"attack_rarity_4": 40,
+			"attack_rarity_5": 47,
+			"health_rarity_1": 248,
+			"health_rarity_2": 278,
+			"health_rarity_3": 323,
+			"health_rarity_4": 383,
+			"health_rarity_5": 458
+		},
+		{
+			"pirate_level": 9,
+			"attack_rarity_1": 29,
+			"attack_rarity_2": 32,
+			"attack_rarity_3": 36,
+			"attack_rarity_4": 42,
+			"attack_rarity_5": 50,
+			"health_rarity_1": 252,
+			"health_rarity_2": 282,
+			"health_rarity_3": 327,
+			"health_rarity_4": 387,
+			"health_rarity_5": 462
+		},
+		{
+			"pirate_level": 10,
+			"attack_rarity_1": 31,
+			"attack_rarity_2": 34,
+			"attack_rarity_3": 39,
+			"attack_rarity_4": 45,
+			"attack_rarity_5": 52,
+			"health_rarity_1": 257,
+			"health_rarity_2": 287,
+			"health_rarity_3": 332,
+			"health_rarity_4": 392,
+			"health_rarity_5": 467
+		},
+		{
+			"pirate_level": 11,
+			"attack_rarity_1": 34,
+			"attack_rarity_2": 37,
+			"attack_rarity_3": 41,
+			"attack_rarity_4": 47,
+			"attack_rarity_5": 55,
+			"health_rarity_1": 262,
+			"health_rarity_2": 292,
+			"health_rarity_3": 337,
+			"health_rarity_4": 397,
+			"health_rarity_5": 472
+		},
+		{
+			"pirate_level": 12,
+			"attack_rarity_1": 36,
+			"attack_rarity_2": 39,
+			"attack_rarity_3": 44,
+			"attack_rarity_4": 50,
+			"attack_rarity_5": 57,
+			"health_rarity_1": 267,
+			"health_rarity_2": 297,
+			"health_rarity_3": 342,
+			"health_rarity_4": 402,
+			"health_rarity_5": 477
+		},
+		{
+			"pirate_level": 13,
+			"attack_rarity_1": 39,
+			"attack_rarity_2": 42,
+			"attack_rarity_3": 46,
+			"attack_rarity_4": 52,
+			"attack_rarity_5": 60,
+			"health_rarity_1": 273,
+			"health_rarity_2": 303,
+			"health_rarity_3": 348,
+			"health_rarity_4": 408,
+			"health_rarity_5": 483
+		},
+		{
+			"pirate_level": 14,
+			"attack_rarity_1": 42,
+			"attack_rarity_2": 45,
+			"attack_rarity_3": 49,
+			"attack_rarity_4": 55,
+			"attack_rarity_5": 63,
+			"health_rarity_1": 278,
+			"health_rarity_2": 308,
+			"health_rarity_3": 353,
+			"health_rarity_4": 413,
+			"health_rarity_5": 488
+		},
+		{
+			"pirate_level": 15,
+			"attack_rarity_1": 45,
+			"attack_rarity_2": 48,
+			"attack_rarity_3": 52,
+			"attack_rarity_4": 58,
+			"attack_rarity_5": 66,
+			"health_rarity_1": 284,
+			"health_rarity_2": 314,
+			"health_rarity_3": 359,
+			"health_rarity_4": 419,
+			"health_rarity_5": 494
+		},
+		{
+			"pirate_level": 16,
+			"attack_rarity_1": 48,
+			"attack_rarity_2": 51,
+			"attack_rarity_3": 55,
+			"attack_rarity_4": 61,
+			"attack_rarity_5": 69,
+			"health_rarity_1": 290,
+			"health_rarity_2": 320,
+			"health_rarity_3": 365,
+			"health_rarity_4": 425,
+			"health_rarity_5": 500
+		},
+		{
+			"pirate_level": 17,
+			"attack_rarity_1": 51,
+			"attack_rarity_2": 54,
+			"attack_rarity_3": 58,
+			"attack_rarity_4": 64,
+			"attack_rarity_5": 72,
+			"health_rarity_1": 296,
+			"health_rarity_2": 326,
+			"health_rarity_3": 371,
+			"health_rarity_4": 431,
+			"health_rarity_5": 506
+		},
+		{
+			"pirate_level": 18,
+			"attack_rarity_1": 54,
+			"attack_rarity_2": 57,
+			"attack_rarity_3": 61,
+			"attack_rarity_4": 67,
+			"attack_rarity_5": 75,
+			"health_rarity_1": 303,
+			"health_rarity_2": 333,
+			"health_rarity_3": 378,
+			"health_rarity_4": 438,
+			"health_rarity_5": 513
+		},
+		{
+			"pirate_level": 19,
+			"attack_rarity_1": 57,
+			"attack_rarity_2": 60,
+			"attack_rarity_3": 65,
+			"attack_rarity_4": 71,
+			"attack_rarity_5": 78,
+			"health_rarity_1": 309,
+			"health_rarity_2": 339,
+			"health_rarity_3": 384,
+			"health_rarity_4": 444,
+			"health_rarity_5": 519
+		},
+		{
+			"pirate_level": 20,
+			"attack_rarity_1": 60,
+			"attack_rarity_2": 63,
+			"attack_rarity_3": 68,
+			"attack_rarity_4": 74,
+			"attack_rarity_5": 81,
+			"health_rarity_1": 316,
+			"health_rarity_2": 346,
+			"health_rarity_3": 391,
+			"health_rarity_4": 451,
+			"health_rarity_5": 526
+		},
+		{
+			"pirate_level": 21,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 99,
+			"attack_rarity_3": 103,
+			"attack_rarity_4": 109,
+			"attack_rarity_5": 117,
+			"health_rarity_1": -1,
+			"health_rarity_2": 434,
+			"health_rarity_3": 479,
+			"health_rarity_4": 539,
+			"health_rarity_5": 614
+		},
+		{
+			"pirate_level": 22,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 102,
+			"attack_rarity_3": 107,
+			"attack_rarity_4": 113,
+			"attack_rarity_5": 120,
+			"health_rarity_1": -1,
+			"health_rarity_2": 441,
+			"health_rarity_3": 486,
+			"health_rarity_4": 546,
+			"health_rarity_5": 621
+		},
+		{
+			"pirate_level": 23,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 106,
+			"attack_rarity_3": 111,
+			"attack_rarity_4": 117,
+			"attack_rarity_5": 124,
+			"health_rarity_1": -1,
+			"health_rarity_2": 448,
+			"health_rarity_3": 493,
+			"health_rarity_4": 553,
+			"health_rarity_5": 628
+		},
+		{
+			"pirate_level": 24,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 110,
+			"attack_rarity_3": 114,
+			"attack_rarity_4": 120,
+			"attack_rarity_5": 128,
+			"health_rarity_1": -1,
+			"health_rarity_2": 455,
+			"health_rarity_3": 500,
+			"health_rarity_4": 560,
+			"health_rarity_5": 635
+		},
+		{
+			"pirate_level": 25,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 113,
+			"attack_rarity_3": 118,
+			"attack_rarity_4": 124,
+			"attack_rarity_5": 131,
+			"health_rarity_1": -1,
+			"health_rarity_2": 463,
+			"health_rarity_3": 508,
+			"health_rarity_4": 568,
+			"health_rarity_5": 643
+		},
+		{
+			"pirate_level": 26,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 117,
+			"attack_rarity_3": 122,
+			"attack_rarity_4": 128,
+			"attack_rarity_5": 135,
+			"health_rarity_1": -1,
+			"health_rarity_2": 470,
+			"health_rarity_3": 515,
+			"health_rarity_4": 575,
+			"health_rarity_5": 650
+		},
+		{
+			"pirate_level": 27,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 121,
+			"attack_rarity_3": 126,
+			"attack_rarity_4": 132,
+			"attack_rarity_5": 139,
+			"health_rarity_1": -1,
+			"health_rarity_2": 478,
+			"health_rarity_3": 523,
+			"health_rarity_4": 583,
+			"health_rarity_5": 658
+		},
+		{
+			"pirate_level": 28,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 125,
+			"attack_rarity_3": 130,
+			"attack_rarity_4": 136,
+			"attack_rarity_5": 143,
+			"health_rarity_1": -1,
+			"health_rarity_2": 486,
+			"health_rarity_3": 531,
+			"health_rarity_4": 591,
+			"health_rarity_5": 666
+		},
+		{
+			"pirate_level": 29,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 129,
+			"attack_rarity_3": 134,
+			"attack_rarity_4": 140,
+			"attack_rarity_5": 147,
+			"health_rarity_1": -1,
+			"health_rarity_2": 494,
+			"health_rarity_3": 539,
+			"health_rarity_4": 599,
+			"health_rarity_5": 674
+		},
+		{
+			"pirate_level": 30,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 133,
+			"attack_rarity_3": 138,
+			"attack_rarity_4": 144,
+			"attack_rarity_5": 151,
+			"health_rarity_1": -1,
+			"health_rarity_2": 502,
+			"health_rarity_3": 547,
+			"health_rarity_4": 607,
+			"health_rarity_5": 682
+		},
+		{
+			"pirate_level": 31,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 137,
+			"attack_rarity_3": 142,
+			"attack_rarity_4": 148,
+			"attack_rarity_5": 155,
+			"health_rarity_1": -1,
+			"health_rarity_2": 511,
+			"health_rarity_3": 556,
+			"health_rarity_4": 616,
+			"health_rarity_5": 691
+		},
+		{
+			"pirate_level": 32,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 142,
+			"attack_rarity_3": 146,
+			"attack_rarity_4": 152,
+			"attack_rarity_5": 160,
+			"health_rarity_1": -1,
+			"health_rarity_2": 519,
+			"health_rarity_3": 564,
+			"health_rarity_4": 624,
+			"health_rarity_5": 699
+		},
+		{
+			"pirate_level": 33,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 146,
+			"attack_rarity_3": 151,
+			"attack_rarity_4": 157,
+			"attack_rarity_5": 164,
+			"health_rarity_1": -1,
+			"health_rarity_2": 528,
+			"health_rarity_3": 573,
+			"health_rarity_4": 633,
+			"health_rarity_5": 708
+		},
+		{
+			"pirate_level": 34,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 150,
+			"attack_rarity_3": 155,
+			"attack_rarity_4": 161,
+			"attack_rarity_5": 168,
+			"health_rarity_1": -1,
+			"health_rarity_2": 537,
+			"health_rarity_3": 582,
+			"health_rarity_4": 642,
+			"health_rarity_5": 717
+		},
+		{
+			"pirate_level": 35,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 155,
+			"attack_rarity_3": 159,
+			"attack_rarity_4": 165,
+			"attack_rarity_5": 173,
+			"health_rarity_1": -1,
+			"health_rarity_2": 545,
+			"health_rarity_3": 590,
+			"health_rarity_4": 650,
+			"health_rarity_5": 725
+		},
+		{
+			"pirate_level": 36,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 159,
+			"attack_rarity_3": 164,
+			"attack_rarity_4": 170,
+			"attack_rarity_5": 177,
+			"health_rarity_1": -1,
+			"health_rarity_2": 554,
+			"health_rarity_3": 599,
+			"health_rarity_4": 659,
+			"health_rarity_5": 734
+		},
+		{
+			"pirate_level": 37,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 164,
+			"attack_rarity_3": 168,
+			"attack_rarity_4": 174,
+			"attack_rarity_5": 182,
+			"health_rarity_1": -1,
+			"health_rarity_2": 564,
+			"health_rarity_3": 609,
+			"health_rarity_4": 669,
+			"health_rarity_5": 744
+		},
+		{
+			"pirate_level": 38,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 169,
+			"attack_rarity_3": 173,
+			"attack_rarity_4": 179,
+			"attack_rarity_5": 187,
+			"health_rarity_1": -1,
+			"health_rarity_2": 573,
+			"health_rarity_3": 618,
+			"health_rarity_4": 678,
+			"health_rarity_5": 753
+		},
+		{
+			"pirate_level": 39,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 173,
+			"attack_rarity_3": 178,
+			"attack_rarity_4": 184,
+			"attack_rarity_5": 191,
+			"health_rarity_1": -1,
+			"health_rarity_2": 582,
+			"health_rarity_3": 627,
+			"health_rarity_4": 687,
+			"health_rarity_5": 762
+		},
+		{
+			"pirate_level": 40,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 178,
+			"attack_rarity_3": 182,
+			"attack_rarity_4": 188,
+			"attack_rarity_5": 196,
+			"health_rarity_1": -1,
+			"health_rarity_2": 592,
+			"health_rarity_3": 637,
+			"health_rarity_4": 697,
+			"health_rarity_5": 772
+		},
+		{
+			"pirate_level": 41,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 183,
+			"attack_rarity_3": 187,
+			"attack_rarity_4": 193,
+			"attack_rarity_5": 201,
+			"health_rarity_1": -1,
+			"health_rarity_2": 601,
+			"health_rarity_3": 646,
+			"health_rarity_4": 706,
+			"health_rarity_5": 781
+		},
+		{
+			"pirate_level": 42,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 188,
+			"attack_rarity_3": 192,
+			"attack_rarity_4": 198,
+			"attack_rarity_5": 206,
+			"health_rarity_1": -1,
+			"health_rarity_2": 611,
+			"health_rarity_3": 656,
+			"health_rarity_4": 716,
+			"health_rarity_5": 791
+		},
+		{
+			"pirate_level": 43,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 193,
+			"attack_rarity_3": 197,
+			"attack_rarity_4": 203,
+			"attack_rarity_5": 211,
+			"health_rarity_1": -1,
+			"health_rarity_2": 621,
+			"health_rarity_3": 666,
+			"health_rarity_4": 726,
+			"health_rarity_5": 801
+		},
+		{
+			"pirate_level": 44,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 197,
+			"attack_rarity_3": 202,
+			"attack_rarity_4": 208,
+			"attack_rarity_5": 215,
+			"health_rarity_1": -1,
+			"health_rarity_2": 631,
+			"health_rarity_3": 676,
+			"health_rarity_4": 736,
+			"health_rarity_5": 811
+		},
+		{
+			"pirate_level": 45,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 203,
+			"attack_rarity_3": 207,
+			"attack_rarity_4": 213,
+			"attack_rarity_5": 221,
+			"health_rarity_1": -1,
+			"health_rarity_2": 641,
+			"health_rarity_3": 686,
+			"health_rarity_4": 746,
+			"health_rarity_5": 821
+		},
+		{
+			"pirate_level": 46,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 208,
+			"attack_rarity_3": 212,
+			"attack_rarity_4": 218,
+			"attack_rarity_5": 226,
+			"health_rarity_1": -1,
+			"health_rarity_2": 651,
+			"health_rarity_3": 696,
+			"health_rarity_4": 756,
+			"health_rarity_5": 831
+		},
+		{
+			"pirate_level": 47,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 213,
+			"attack_rarity_3": 217,
+			"attack_rarity_4": 223,
+			"attack_rarity_5": 231,
+			"health_rarity_1": -1,
+			"health_rarity_2": 661,
+			"health_rarity_3": 706,
+			"health_rarity_4": 766,
+			"health_rarity_5": 841
+		},
+		{
+			"pirate_level": 48,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 218,
+			"attack_rarity_3": 222,
+			"attack_rarity_4": 228,
+			"attack_rarity_5": 236,
+			"health_rarity_1": -1,
+			"health_rarity_2": 672,
+			"health_rarity_3": 717,
+			"health_rarity_4": 777,
+			"health_rarity_5": 852
+		},
+		{
+			"pirate_level": 49,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 223,
+			"attack_rarity_3": 228,
+			"attack_rarity_4": 234,
+			"attack_rarity_5": 241,
+			"health_rarity_1": -1,
+			"health_rarity_2": 682,
+			"health_rarity_3": 727,
+			"health_rarity_4": 787,
+			"health_rarity_5": 862
+		},
+		{
+			"pirate_level": 50,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 228,
+			"attack_rarity_3": 233,
+			"attack_rarity_4": 239,
+			"attack_rarity_5": 246,
+			"health_rarity_1": -1,
+			"health_rarity_2": 693,
+			"health_rarity_3": 738,
+			"health_rarity_4": 798,
+			"health_rarity_5": 873
+		},
+		{
+			"pirate_level": 51,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 234,
+			"attack_rarity_3": 238,
+			"attack_rarity_4": 244,
+			"attack_rarity_5": 252,
+			"health_rarity_1": -1,
+			"health_rarity_2": 703,
+			"health_rarity_3": 748,
+			"health_rarity_4": 808,
+			"health_rarity_5": 883
+		},
+		{
+			"pirate_level": 52,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 239,
+			"attack_rarity_3": 244,
+			"attack_rarity_4": 250,
+			"attack_rarity_5": 257,
+			"health_rarity_1": -1,
+			"health_rarity_2": 714,
+			"health_rarity_3": 759,
+			"health_rarity_4": 819,
+			"health_rarity_5": 894
+		},
+		{
+			"pirate_level": 53,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 245,
+			"attack_rarity_3": 249,
+			"attack_rarity_4": 255,
+			"attack_rarity_5": 263,
+			"health_rarity_1": -1,
+			"health_rarity_2": 725,
+			"health_rarity_3": 770,
+			"health_rarity_4": 830,
+			"health_rarity_5": 905
+		},
+		{
+			"pirate_level": 54,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 250,
+			"attack_rarity_3": 255,
+			"attack_rarity_4": 261,
+			"attack_rarity_5": 268,
+			"health_rarity_1": -1,
+			"health_rarity_2": 736,
+			"health_rarity_3": 781,
+			"health_rarity_4": 841,
+			"health_rarity_5": 916
+		},
+		{
+			"pirate_level": 55,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 256,
+			"attack_rarity_3": 260,
+			"attack_rarity_4": 266,
+			"attack_rarity_5": 274,
+			"health_rarity_1": -1,
+			"health_rarity_2": 747,
+			"health_rarity_3": 792,
+			"health_rarity_4": 852,
+			"health_rarity_5": 927
+		},
+		{
+			"pirate_level": 56,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 261,
+			"attack_rarity_3": 266,
+			"attack_rarity_4": 272,
+			"attack_rarity_5": 279,
+			"health_rarity_1": -1,
+			"health_rarity_2": 759,
+			"health_rarity_3": 804,
+			"health_rarity_4": 864,
+			"health_rarity_5": 939
+		},
+		{
+			"pirate_level": 57,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 267,
+			"attack_rarity_3": 272,
+			"attack_rarity_4": 278,
+			"attack_rarity_5": 285,
+			"health_rarity_1": -1,
+			"health_rarity_2": 770,
+			"health_rarity_3": 815,
+			"health_rarity_4": 875,
+			"health_rarity_5": 950
+		},
+		{
+			"pirate_level": 58,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 273,
+			"attack_rarity_3": 277,
+			"attack_rarity_4": 283,
+			"attack_rarity_5": 291,
+			"health_rarity_1": -1,
+			"health_rarity_2": 781,
+			"health_rarity_3": 826,
+			"health_rarity_4": 886,
+			"health_rarity_5": 961
+		},
+		{
+			"pirate_level": 59,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 279,
+			"attack_rarity_3": 283,
+			"attack_rarity_4": 289,
+			"attack_rarity_5": 297,
+			"health_rarity_1": -1,
+			"health_rarity_2": 793,
+			"health_rarity_3": 838,
+			"health_rarity_4": 898,
+			"health_rarity_5": 973
+		},
+		{
+			"pirate_level": 60,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": 284,
+			"attack_rarity_3": 289,
+			"attack_rarity_4": 295,
+			"attack_rarity_5": 302,
+			"health_rarity_1": -1,
+			"health_rarity_2": 804,
+			"health_rarity_3": 849,
+			"health_rarity_4": 909,
+			"health_rarity_5": 984
+		},
+		{
+			"pirate_level": 61,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 438,
+			"attack_rarity_4": 444,
+			"attack_rarity_5": 452,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1058,
+			"health_rarity_4": 1118,
+			"health_rarity_5": 1193
+		},
+		{
+			"pirate_level": 62,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 444,
+			"attack_rarity_4": 450,
+			"attack_rarity_5": 458,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1070,
+			"health_rarity_4": 1130,
+			"health_rarity_5": 1205
+		},
+		{
+			"pirate_level": 63,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 450,
+			"attack_rarity_4": 456,
+			"attack_rarity_5": 464,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1081,
+			"health_rarity_4": 1141,
+			"health_rarity_5": 1216
+		},
+		{
+			"pirate_level": 64,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 456,
+			"attack_rarity_4": 462,
+			"attack_rarity_5": 470,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1093,
+			"health_rarity_4": 1153,
+			"health_rarity_5": 1228
+		},
+		{
+			"pirate_level": 65,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 462,
+			"attack_rarity_4": 468,
+			"attack_rarity_5": 476,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1106,
+			"health_rarity_4": 1166,
+			"health_rarity_5": 1241
+		},
+		{
+			"pirate_level": 66,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 468,
+			"attack_rarity_4": 474,
+			"attack_rarity_5": 482,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1118,
+			"health_rarity_4": 1178,
+			"health_rarity_5": 1253
+		},
+		{
+			"pirate_level": 67,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 474,
+			"attack_rarity_4": 480,
+			"attack_rarity_5": 488,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1130,
+			"health_rarity_4": 1190,
+			"health_rarity_5": 1265
+		},
+		{
+			"pirate_level": 68,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 481,
+			"attack_rarity_4": 487,
+			"attack_rarity_5": 494,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1142,
+			"health_rarity_4": 1202,
+			"health_rarity_5": 1277
+		},
+		{
+			"pirate_level": 69,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 487,
+			"attack_rarity_4": 493,
+			"attack_rarity_5": 500,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1155,
+			"health_rarity_4": 1215,
+			"health_rarity_5": 1290
+		},
+		{
+			"pirate_level": 70,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 493,
+			"attack_rarity_4": 499,
+			"attack_rarity_5": 507,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1167,
+			"health_rarity_4": 1227,
+			"health_rarity_5": 1302
+		},
+		{
+			"pirate_level": 71,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 499,
+			"attack_rarity_4": 505,
+			"attack_rarity_5": 513,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1180,
+			"health_rarity_4": 1240,
+			"health_rarity_5": 1315
+		},
+		{
+			"pirate_level": 72,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 506,
+			"attack_rarity_4": 512,
+			"attack_rarity_5": 519,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1193,
+			"health_rarity_4": 1253,
+			"health_rarity_5": 1328
+		},
+		{
+			"pirate_level": 73,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 512,
+			"attack_rarity_4": 518,
+			"attack_rarity_5": 526,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1206,
+			"health_rarity_4": 1266,
+			"health_rarity_5": 1341
+		},
+		{
+			"pirate_level": 74,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 519,
+			"attack_rarity_4": 525,
+			"attack_rarity_5": 532,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1218,
+			"health_rarity_4": 1278,
+			"health_rarity_5": 1353
+		},
+		{
+			"pirate_level": 75,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 525,
+			"attack_rarity_4": 531,
+			"attack_rarity_5": 539,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1231,
+			"health_rarity_4": 1291,
+			"health_rarity_5": 1366
+		},
+		{
+			"pirate_level": 76,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 532,
+			"attack_rarity_4": 538,
+			"attack_rarity_5": 545,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1245,
+			"health_rarity_4": 1305,
+			"health_rarity_5": 1380
+		},
+		{
+			"pirate_level": 77,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 538,
+			"attack_rarity_4": 544,
+			"attack_rarity_5": 552,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1258,
+			"health_rarity_4": 1318,
+			"health_rarity_5": 1393
+		},
+		{
+			"pirate_level": 78,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 545,
+			"attack_rarity_4": 551,
+			"attack_rarity_5": 558,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1271,
+			"health_rarity_4": 1331,
+			"health_rarity_5": 1406
+		},
+		{
+			"pirate_level": 79,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 552,
+			"attack_rarity_4": 558,
+			"attack_rarity_5": 565,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1284,
+			"health_rarity_4": 1344,
+			"health_rarity_5": 1419
+		},
+		{
+			"pirate_level": 80,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 558,
+			"attack_rarity_4": 564,
+			"attack_rarity_5": 572,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1298,
+			"health_rarity_4": 1358,
+			"health_rarity_5": 1433
+		},
+		{
+			"pirate_level": 81,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 565,
+			"attack_rarity_4": 571,
+			"attack_rarity_5": 579,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1311,
+			"health_rarity_4": 1371,
+			"health_rarity_5": 1446
+		},
+		{
+			"pirate_level": 82,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 572,
+			"attack_rarity_4": 578,
+			"attack_rarity_5": 585,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1325,
+			"health_rarity_4": 1385,
+			"health_rarity_5": 1460
+		},
+		{
+			"pirate_level": 83,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 579,
+			"attack_rarity_4": 585,
+			"attack_rarity_5": 592,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1338,
+			"health_rarity_4": 1398,
+			"health_rarity_5": 1473
+		},
+		{
+			"pirate_level": 84,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 586,
+			"attack_rarity_4": 592,
+			"attack_rarity_5": 599,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1352,
+			"health_rarity_4": 1412,
+			"health_rarity_5": 1487
+		},
+		{
+			"pirate_level": 85,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 592,
+			"attack_rarity_4": 598,
+			"attack_rarity_5": 606,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1366,
+			"health_rarity_4": 1426,
+			"health_rarity_5": 1501
+		},
+		{
+			"pirate_level": 86,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 599,
+			"attack_rarity_4": 605,
+			"attack_rarity_5": 613,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1380,
+			"health_rarity_4": 1440,
+			"health_rarity_5": 1515
+		},
+		{
+			"pirate_level": 87,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 606,
+			"attack_rarity_4": 612,
+			"attack_rarity_5": 620,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1394,
+			"health_rarity_4": 1454,
+			"health_rarity_5": 1529
+		},
+		{
+			"pirate_level": 88,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 613,
+			"attack_rarity_4": 619,
+			"attack_rarity_5": 627,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1408,
+			"health_rarity_4": 1468,
+			"health_rarity_5": 1543
+		},
+		{
+			"pirate_level": 89,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 621,
+			"attack_rarity_4": 627,
+			"attack_rarity_5": 634,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1422,
+			"health_rarity_4": 1482,
+			"health_rarity_5": 1557
+		},
+		{
+			"pirate_level": 90,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 628,
+			"attack_rarity_4": 634,
+			"attack_rarity_5": 641,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1436,
+			"health_rarity_4": 1496,
+			"health_rarity_5": 1571
+		},
+		{
+			"pirate_level": 91,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 635,
+			"attack_rarity_4": 641,
+			"attack_rarity_5": 648,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1451,
+			"health_rarity_4": 1511,
+			"health_rarity_5": 1586
+		},
+		{
+			"pirate_level": 92,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 642,
+			"attack_rarity_4": 648,
+			"attack_rarity_5": 655,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1465,
+			"health_rarity_4": 1525,
+			"health_rarity_5": 1600
+		},
+		{
+			"pirate_level": 93,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 649,
+			"attack_rarity_4": 655,
+			"attack_rarity_5": 663,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1480,
+			"health_rarity_4": 1540,
+			"health_rarity_5": 1615
+		},
+		{
+			"pirate_level": 94,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 656,
+			"attack_rarity_4": 662,
+			"attack_rarity_5": 670,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1494,
+			"health_rarity_4": 1554,
+			"health_rarity_5": 1629
+		},
+		{
+			"pirate_level": 95,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 664,
+			"attack_rarity_4": 670,
+			"attack_rarity_5": 677,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1509,
+			"health_rarity_4": 1569,
+			"health_rarity_5": 1644
+		},
+		{
+			"pirate_level": 96,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 671,
+			"attack_rarity_4": 677,
+			"attack_rarity_5": 685,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1523,
+			"health_rarity_4": 1583,
+			"health_rarity_5": 1658
+		},
+		{
+			"pirate_level": 97,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 679,
+			"attack_rarity_4": 685,
+			"attack_rarity_5": 692,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1538,
+			"health_rarity_4": 1598,
+			"health_rarity_5": 1673
+		},
+		{
+			"pirate_level": 98,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 686,
+			"attack_rarity_4": 692,
+			"attack_rarity_5": 699,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1553,
+			"health_rarity_4": 1613,
+			"health_rarity_5": 1688
+		},
+		{
+			"pirate_level": 99,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 693,
+			"attack_rarity_4": 699,
+			"attack_rarity_5": 707,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1568,
+			"health_rarity_4": 1628,
+			"health_rarity_5": 1703
+		},
+		{
+			"pirate_level": 100,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 701,
+			"attack_rarity_4": 707,
+			"attack_rarity_5": 714,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1583,
+			"health_rarity_4": 1643,
+			"health_rarity_5": 1718
+		},
+		{
+			"pirate_level": 101,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 708,
+			"attack_rarity_4": 714,
+			"attack_rarity_5": 722,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1598,
+			"health_rarity_4": 1658,
+			"health_rarity_5": 1733
+		},
+		{
+			"pirate_level": 102,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 716,
+			"attack_rarity_4": 722,
+			"attack_rarity_5": 730,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1613,
+			"health_rarity_4": 1673,
+			"health_rarity_5": 1748
+		},
+		{
+			"pirate_level": 103,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 724,
+			"attack_rarity_4": 730,
+			"attack_rarity_5": 737,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1628,
+			"health_rarity_4": 1688,
+			"health_rarity_5": 1763
+		},
+		{
+			"pirate_level": 104,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 731,
+			"attack_rarity_4": 737,
+			"attack_rarity_5": 745,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1644,
+			"health_rarity_4": 1704,
+			"health_rarity_5": 1779
+		},
+		{
+			"pirate_level": 105,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 739,
+			"attack_rarity_4": 745,
+			"attack_rarity_5": 752,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1659,
+			"health_rarity_4": 1719,
+			"health_rarity_5": 1794
+		},
+		{
+			"pirate_level": 106,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 747,
+			"attack_rarity_4": 753,
+			"attack_rarity_5": 760,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1675,
+			"health_rarity_4": 1735,
+			"health_rarity_5": 1810
+		},
+		{
+			"pirate_level": 107,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 754,
+			"attack_rarity_4": 760,
+			"attack_rarity_5": 768,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1690,
+			"health_rarity_4": 1750,
+			"health_rarity_5": 1825
+		},
+		{
+			"pirate_level": 108,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 762,
+			"attack_rarity_4": 768,
+			"attack_rarity_5": 776,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1706,
+			"health_rarity_4": 1766,
+			"health_rarity_5": 1841
+		},
+		{
+			"pirate_level": 109,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 770,
+			"attack_rarity_4": 776,
+			"attack_rarity_5": 784,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1721,
+			"health_rarity_4": 1781,
+			"health_rarity_5": 1856
+		},
+		{
+			"pirate_level": 110,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 778,
+			"attack_rarity_4": 784,
+			"attack_rarity_5": 791,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1737,
+			"health_rarity_4": 1797,
+			"health_rarity_5": 1872
+		},
+		{
+			"pirate_level": 111,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 786,
+			"attack_rarity_4": 792,
+			"attack_rarity_5": 799,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1753,
+			"health_rarity_4": 1813,
+			"health_rarity_5": 1888
+		},
+		{
+			"pirate_level": 112,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 794,
+			"attack_rarity_4": 800,
+			"attack_rarity_5": 807,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1769,
+			"health_rarity_4": 1829,
+			"health_rarity_5": 1904
+		},
+		{
+			"pirate_level": 113,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 802,
+			"attack_rarity_4": 808,
+			"attack_rarity_5": 815,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1785,
+			"health_rarity_4": 1845,
+			"health_rarity_5": 1920
+		},
+		{
+			"pirate_level": 114,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 810,
+			"attack_rarity_4": 816,
+			"attack_rarity_5": 823,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1801,
+			"health_rarity_4": 1861,
+			"health_rarity_5": 1936
+		},
+		{
+			"pirate_level": 115,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 818,
+			"attack_rarity_4": 824,
+			"attack_rarity_5": 831,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1817,
+			"health_rarity_4": 1877,
+			"health_rarity_5": 1952
+		},
+		{
+			"pirate_level": 116,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 826,
+			"attack_rarity_4": 832,
+			"attack_rarity_5": 839,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1833,
+			"health_rarity_4": 1893,
+			"health_rarity_5": 1968
+		},
+		{
+			"pirate_level": 117,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 834,
+			"attack_rarity_4": 840,
+			"attack_rarity_5": 847,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1849,
+			"health_rarity_4": 1909,
+			"health_rarity_5": 1984
+		},
+		{
+			"pirate_level": 118,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 842,
+			"attack_rarity_4": 848,
+			"attack_rarity_5": 856,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1865,
+			"health_rarity_4": 1925,
+			"health_rarity_5": 2000
+		},
+		{
+			"pirate_level": 119,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 850,
+			"attack_rarity_4": 856,
+			"attack_rarity_5": 864,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1882,
+			"health_rarity_4": 1942,
+			"health_rarity_5": 2017
+		},
+		{
+			"pirate_level": 120,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 859,
+			"attack_rarity_4": 865,
+			"attack_rarity_5": 872,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 1898,
+			"health_rarity_4": 1958,
+			"health_rarity_5": 2033
+		},
+		{
+			"pirate_level": 121,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": 1296,
+			"attack_rarity_4": 1302,
+			"attack_rarity_5": 1310,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": 2375,
+			"health_rarity_4": 2435,
+			"health_rarity_5": 2510
+		},
+		{
+			"pirate_level": 122,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1311,
+			"attack_rarity_5": 1318,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2451,
+			"health_rarity_5": 2526
+		},
+		{
+			"pirate_level": 123,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1319,
+			"attack_rarity_5": 1327,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2468,
+			"health_rarity_5": 2543
+		},
+		{
+			"pirate_level": 124,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1327,
+			"attack_rarity_5": 1335,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2485,
+			"health_rarity_5": 2560
+		},
+		{
+			"pirate_level": 125,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1336,
+			"attack_rarity_5": 1343,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2501,
+			"health_rarity_5": 2576
+		},
+		{
+			"pirate_level": 126,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1344,
+			"attack_rarity_5": 1352,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2518,
+			"health_rarity_5": 2593
+		},
+		{
+			"pirate_level": 127,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1353,
+			"attack_rarity_5": 1360,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2535,
+			"health_rarity_5": 2610
+		},
+		{
+			"pirate_level": 128,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1361,
+			"attack_rarity_5": 1369,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2552,
+			"health_rarity_5": 2627
+		},
+		{
+			"pirate_level": 129,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1370,
+			"attack_rarity_5": 1377,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2569,
+			"health_rarity_5": 2644
+		},
+		{
+			"pirate_level": 130,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1378,
+			"attack_rarity_5": 1386,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2586,
+			"health_rarity_5": 2661
+		},
+		{
+			"pirate_level": 131,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1387,
+			"attack_rarity_5": 1394,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2603,
+			"health_rarity_5": 2678
+		},
+		{
+			"pirate_level": 132,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1395,
+			"attack_rarity_5": 1403,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2621,
+			"health_rarity_5": 2696
+		},
+		{
+			"pirate_level": 133,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1404,
+			"attack_rarity_5": 1412,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2638,
+			"health_rarity_5": 2713
+		},
+		{
+			"pirate_level": 134,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1413,
+			"attack_rarity_5": 1420,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2655,
+			"health_rarity_5": 2730
+		},
+		{
+			"pirate_level": 135,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1421,
+			"attack_rarity_5": 1429,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2673,
+			"health_rarity_5": 2748
+		},
+		{
+			"pirate_level": 136,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1430,
+			"attack_rarity_5": 1438,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2690,
+			"health_rarity_5": 2765
+		},
+		{
+			"pirate_level": 137,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1439,
+			"attack_rarity_5": 1446,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2708,
+			"health_rarity_5": 2783
+		},
+		{
+			"pirate_level": 138,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1448,
+			"attack_rarity_5": 1455,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2725,
+			"health_rarity_5": 2800
+		},
+		{
+			"pirate_level": 139,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1457,
+			"attack_rarity_5": 1464,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2743,
+			"health_rarity_5": 2818
+		},
+		{
+			"pirate_level": 140,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1466,
+			"attack_rarity_5": 1473,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2761,
+			"health_rarity_5": 2836
+		},
+		{
+			"pirate_level": 141,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1474,
+			"attack_rarity_5": 1482,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2779,
+			"health_rarity_5": 2854
+		},
+		{
+			"pirate_level": 142,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1483,
+			"attack_rarity_5": 1491,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2796,
+			"health_rarity_5": 2871
+		},
+		{
+			"pirate_level": 143,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1492,
+			"attack_rarity_5": 1500,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2814,
+			"health_rarity_5": 2889
+		},
+		{
+			"pirate_level": 144,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1501,
+			"attack_rarity_5": 1509,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2832,
+			"health_rarity_5": 2907
+		},
+		{
+			"pirate_level": 145,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1510,
+			"attack_rarity_5": 1518,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2850,
+			"health_rarity_5": 2925
+		},
+		{
+			"pirate_level": 146,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1519,
+			"attack_rarity_5": 1527,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2869,
+			"health_rarity_5": 2944
+		},
+		{
+			"pirate_level": 147,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1529,
+			"attack_rarity_5": 1536,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2887,
+			"health_rarity_5": 2962
+		},
+		{
+			"pirate_level": 148,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1538,
+			"attack_rarity_5": 1545,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2905,
+			"health_rarity_5": 2980
+		},
+		{
+			"pirate_level": 149,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1547,
+			"attack_rarity_5": 1554,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2923,
+			"health_rarity_5": 2998
+		},
+		{
+			"pirate_level": 150,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1556,
+			"attack_rarity_5": 1563,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2942,
+			"health_rarity_5": 3017
+		},
+		{
+			"pirate_level": 151,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1565,
+			"attack_rarity_5": 1573,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2960,
+			"health_rarity_5": 3035
+		},
+		{
+			"pirate_level": 152,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1574,
+			"attack_rarity_5": 1582,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2979,
+			"health_rarity_5": 3054
+		},
+		{
+			"pirate_level": 153,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1584,
+			"attack_rarity_5": 1591,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 2997,
+			"health_rarity_5": 3072
+		},
+		{
+			"pirate_level": 154,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1593,
+			"attack_rarity_5": 1601,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3016,
+			"health_rarity_5": 3091
+		},
+		{
+			"pirate_level": 155,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1602,
+			"attack_rarity_5": 1610,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3034,
+			"health_rarity_5": 3109
+		},
+		{
+			"pirate_level": 156,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1612,
+			"attack_rarity_5": 1619,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3053,
+			"health_rarity_5": 3128
+		},
+		{
+			"pirate_level": 157,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1621,
+			"attack_rarity_5": 1629,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3072,
+			"health_rarity_5": 3147
+		},
+		{
+			"pirate_level": 158,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1631,
+			"attack_rarity_5": 1638,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3091,
+			"health_rarity_5": 3166
+		},
+		{
+			"pirate_level": 159,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1640,
+			"attack_rarity_5": 1648,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3110,
+			"health_rarity_5": 3185
+		},
+		{
+			"pirate_level": 160,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1649,
+			"attack_rarity_5": 1657,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3129,
+			"health_rarity_5": 3204
+		},
+		{
+			"pirate_level": 161,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1659,
+			"attack_rarity_5": 1667,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3148,
+			"health_rarity_5": 3223
+		},
+		{
+			"pirate_level": 162,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1669,
+			"attack_rarity_5": 1676,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3167,
+			"health_rarity_5": 3242
+		},
+		{
+			"pirate_level": 163,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1678,
+			"attack_rarity_5": 1686,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3186,
+			"health_rarity_5": 3261
+		},
+		{
+			"pirate_level": 164,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1688,
+			"attack_rarity_5": 1695,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3205,
+			"health_rarity_5": 3280
+		},
+		{
+			"pirate_level": 165,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1697,
+			"attack_rarity_5": 1705,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3224,
+			"health_rarity_5": 3299
+		},
+		{
+			"pirate_level": 166,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1707,
+			"attack_rarity_5": 1715,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3244,
+			"health_rarity_5": 3319
+		},
+		{
+			"pirate_level": 167,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1717,
+			"attack_rarity_5": 1724,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3263,
+			"health_rarity_5": 3338
+		},
+		{
+			"pirate_level": 168,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1726,
+			"attack_rarity_5": 1734,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3283,
+			"health_rarity_5": 3358
+		},
+		{
+			"pirate_level": 169,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1736,
+			"attack_rarity_5": 1744,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3302,
+			"health_rarity_5": 3377
+		},
+		{
+			"pirate_level": 170,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1746,
+			"attack_rarity_5": 1753,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3322,
+			"health_rarity_5": 3397
+		},
+		{
+			"pirate_level": 171,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1756,
+			"attack_rarity_5": 1763,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3341,
+			"health_rarity_5": 3416
+		},
+		{
+			"pirate_level": 172,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1766,
+			"attack_rarity_5": 1773,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3361,
+			"health_rarity_5": 3436
+		},
+		{
+			"pirate_level": 173,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1775,
+			"attack_rarity_5": 1783,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3381,
+			"health_rarity_5": 3456
+		},
+		{
+			"pirate_level": 174,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1785,
+			"attack_rarity_5": 1793,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3400,
+			"health_rarity_5": 3475
+		},
+		{
+			"pirate_level": 175,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1795,
+			"attack_rarity_5": 1803,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3420,
+			"health_rarity_5": 3495
+		},
+		{
+			"pirate_level": 176,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1805,
+			"attack_rarity_5": 1813,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3440,
+			"health_rarity_5": 3515
+		},
+		{
+			"pirate_level": 177,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1815,
+			"attack_rarity_5": 1823,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3460,
+			"health_rarity_5": 3535
+		},
+		{
+			"pirate_level": 178,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1825,
+			"attack_rarity_5": 1833,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3480,
+			"health_rarity_5": 3555
+		},
+		{
+			"pirate_level": 179,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1835,
+			"attack_rarity_5": 1843,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3500,
+			"health_rarity_5": 3575
+		},
+		{
+			"pirate_level": 180,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1845,
+			"attack_rarity_5": 1853,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3520,
+			"health_rarity_5": 3595
+		},
+		{
+			"pirate_level": 181,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1855,
+			"attack_rarity_5": 1863,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3541,
+			"health_rarity_5": 3616
+		},
+		{
+			"pirate_level": 182,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1866,
+			"attack_rarity_5": 1873,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3561,
+			"health_rarity_5": 3636
+		},
+		{
+			"pirate_level": 183,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1876,
+			"attack_rarity_5": 1883,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3581,
+			"health_rarity_5": 3656
+		},
+		{
+			"pirate_level": 184,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1886,
+			"attack_rarity_5": 1893,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3601,
+			"health_rarity_5": 3676
+		},
+		{
+			"pirate_level": 185,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1896,
+			"attack_rarity_5": 1904,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3622,
+			"health_rarity_5": 3697
+		},
+		{
+			"pirate_level": 186,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1906,
+			"attack_rarity_5": 1914,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3642,
+			"health_rarity_5": 3717
+		},
+		{
+			"pirate_level": 187,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1917,
+			"attack_rarity_5": 1924,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3663,
+			"health_rarity_5": 3738
+		},
+		{
+			"pirate_level": 188,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1927,
+			"attack_rarity_5": 1934,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3683,
+			"health_rarity_5": 3758
+		},
+		{
+			"pirate_level": 189,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1937,
+			"attack_rarity_5": 1945,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3704,
+			"health_rarity_5": 3779
+		},
+		{
+			"pirate_level": 190,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1947,
+			"attack_rarity_5": 1955,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3725,
+			"health_rarity_5": 3800
+		},
+		{
+			"pirate_level": 191,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1958,
+			"attack_rarity_5": 1965,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3745,
+			"health_rarity_5": 3820
+		},
+		{
+			"pirate_level": 192,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1968,
+			"attack_rarity_5": 1976,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3766,
+			"health_rarity_5": 3841
+		},
+		{
+			"pirate_level": 193,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1979,
+			"attack_rarity_5": 1986,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3787,
+			"health_rarity_5": 3862
+		},
+		{
+			"pirate_level": 194,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 1989,
+			"attack_rarity_5": 1997,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3808,
+			"health_rarity_5": 3883
+		},
+		{
+			"pirate_level": 195,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 2000,
+			"attack_rarity_5": 2007,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3829,
+			"health_rarity_5": 3904
+		},
+		{
+			"pirate_level": 196,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 2010,
+			"attack_rarity_5": 2018,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3850,
+			"health_rarity_5": 3925
+		},
+		{
+			"pirate_level": 197,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 2021,
+			"attack_rarity_5": 2028,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3871,
+			"health_rarity_5": 3946
+		},
+		{
+			"pirate_level": 198,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 2031,
+			"attack_rarity_5": 2039,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3892,
+			"health_rarity_5": 3967
+		},
+		{
+			"pirate_level": 199,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 2042,
+			"attack_rarity_5": 2049,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3913,
+			"health_rarity_5": 3988
+		},
+		{
+			"pirate_level": 200,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": 2052,
+			"attack_rarity_5": 2060,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": 3934,
+			"health_rarity_5": 4009
+		},
+		{
+			"pirate_level": 201,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3095,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 4986
+		},
+		{
+			"pirate_level": 202,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3106,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5007
+		},
+		{
+			"pirate_level": 203,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3117,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5029
+		},
+		{
+			"pirate_level": 204,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3127,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5050
+		},
+		{
+			"pirate_level": 205,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3138,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5071
+		},
+		{
+			"pirate_level": 206,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3149,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5093
+		},
+		{
+			"pirate_level": 207,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3160,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5115
+		},
+		{
+			"pirate_level": 208,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3170,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5136
+		},
+		{
+			"pirate_level": 209,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3181,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5158
+		},
+		{
+			"pirate_level": 210,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3192,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5180
+		},
+		{
+			"pirate_level": 211,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3203,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5201
+		},
+		{
+			"pirate_level": 212,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3214,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5223
+		},
+		{
+			"pirate_level": 213,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3225,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5245
+		},
+		{
+			"pirate_level": 214,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3236,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5267
+		},
+		{
+			"pirate_level": 215,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3247,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5289
+		},
+		{
+			"pirate_level": 216,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3258,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5311
+		},
+		{
+			"pirate_level": 217,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3269,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5333
+		},
+		{
+			"pirate_level": 218,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3280,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5355
+		},
+		{
+			"pirate_level": 219,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3291,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5378
+		},
+		{
+			"pirate_level": 220,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3302,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5400
+		},
+		{
+			"pirate_level": 221,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3313,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5422
+		},
+		{
+			"pirate_level": 222,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3324,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5444
+		},
+		{
+			"pirate_level": 223,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3336,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5467
+		},
+		{
+			"pirate_level": 224,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3347,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5489
+		},
+		{
+			"pirate_level": 225,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3358,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5512
+		},
+		{
+			"pirate_level": 226,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3369,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5534
+		},
+		{
+			"pirate_level": 227,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3381,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5557
+		},
+		{
+			"pirate_level": 228,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3392,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5580
+		},
+		{
+			"pirate_level": 229,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3403,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5602
+		},
+		{
+			"pirate_level": 230,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3415,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5625
+		},
+		{
+			"pirate_level": 231,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3426,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5648
+		},
+		{
+			"pirate_level": 232,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3438,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5671
+		},
+		{
+			"pirate_level": 233,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3449,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5694
+		},
+		{
+			"pirate_level": 234,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3461,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5717
+		},
+		{
+			"pirate_level": 235,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3472,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5740
+		},
+		{
+			"pirate_level": 236,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3484,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5763
+		},
+		{
+			"pirate_level": 237,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3495,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5786
+		},
+		{
+			"pirate_level": 238,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3507,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5809
+		},
+		{
+			"pirate_level": 239,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3518,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5832
+		},
+		{
+			"pirate_level": 240,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3530,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5855
+		},
+		{
+			"pirate_level": 241,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3542,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5879
+		},
+		{
+			"pirate_level": 242,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3553,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5902
+		},
+		{
+			"pirate_level": 243,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3565,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5925
+		},
+		{
+			"pirate_level": 244,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3577,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5949
+		},
+		{
+			"pirate_level": 245,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3588,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5972
+		},
+		{
+			"pirate_level": 246,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3600,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 5996
+		},
+		{
+			"pirate_level": 247,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3612,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6019
+		},
+		{
+			"pirate_level": 248,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3624,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6043
+		},
+		{
+			"pirate_level": 249,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3636,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6067
+		},
+		{
+			"pirate_level": 250,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3647,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6090
+		},
+		{
+			"pirate_level": 251,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3659,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6114
+		},
+		{
+			"pirate_level": 252,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3671,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6138
+		},
+		{
+			"pirate_level": 253,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3683,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6162
+		},
+		{
+			"pirate_level": 254,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3695,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6186
+		},
+		{
+			"pirate_level": 255,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3707,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6210
+		},
+		{
+			"pirate_level": 256,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3719,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6234
+		},
+		{
+			"pirate_level": 257,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3731,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6258
+		},
+		{
+			"pirate_level": 258,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3743,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6282
+		},
+		{
+			"pirate_level": 259,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3755,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6306
+		},
+		{
+			"pirate_level": 260,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3767,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6330
+		},
+		{
+			"pirate_level": 261,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3779,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6354
+		},
+		{
+			"pirate_level": 262,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3792,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6379
+		},
+		{
+			"pirate_level": 263,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3804,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6403
+		},
+		{
+			"pirate_level": 264,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3816,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6427
+		},
+		{
+			"pirate_level": 265,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3828,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6452
+		},
+		{
+			"pirate_level": 266,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3840,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6476
+		},
+		{
+			"pirate_level": 267,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3853,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6501
+		},
+		{
+			"pirate_level": 268,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3865,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6525
+		},
+		{
+			"pirate_level": 269,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3877,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6550
+		},
+		{
+			"pirate_level": 270,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3889,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6574
+		},
+		{
+			"pirate_level": 271,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3902,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6599
+		},
+		{
+			"pirate_level": 272,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3914,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6624
+		},
+		{
+			"pirate_level": 273,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3927,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6649
+		},
+		{
+			"pirate_level": 274,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3939,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6673
+		},
+		{
+			"pirate_level": 275,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3951,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6698
+		},
+		{
+			"pirate_level": 276,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3964,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6723
+		},
+		{
+			"pirate_level": 277,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3976,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6748
+		},
+		{
+			"pirate_level": 278,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 3989,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6773
+		},
+		{
+			"pirate_level": 279,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4001,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6798
+		},
+		{
+			"pirate_level": 280,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4014,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6823
+		},
+		{
+			"pirate_level": 281,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4027,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6849
+		},
+		{
+			"pirate_level": 282,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4039,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6874
+		},
+		{
+			"pirate_level": 283,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4052,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6899
+		},
+		{
+			"pirate_level": 284,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4064,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6924
+		},
+		{
+			"pirate_level": 285,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4077,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6950
+		},
+		{
+			"pirate_level": 286,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4090,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 6975
+		},
+		{
+			"pirate_level": 287,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4102,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7000
+		},
+		{
+			"pirate_level": 288,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4115,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7026
+		},
+		{
+			"pirate_level": 289,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4128,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7051
+		},
+		{
+			"pirate_level": 290,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4141,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7077
+		},
+		{
+			"pirate_level": 291,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4153,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7102
+		},
+		{
+			"pirate_level": 292,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4166,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7128
+		},
+		{
+			"pirate_level": 293,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4179,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7154
+		},
+		{
+			"pirate_level": 294,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4192,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7179
+		},
+		{
+			"pirate_level": 295,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4205,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7205
+		},
+		{
+			"pirate_level": 296,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4218,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7231
+		},
+		{
+			"pirate_level": 297,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4231,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7257
+		},
+		{
+			"pirate_level": 298,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4244,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7283
+		},
+		{
+			"pirate_level": 299,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4257,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7309
+		},
+		{
+			"pirate_level": 300,
+			"attack_rarity_1": -1,
+			"attack_rarity_2": -1,
+			"attack_rarity_3": -1,
+			"attack_rarity_4": -1,
+			"attack_rarity_5": 4270,
+			"health_rarity_1": -1,
+			"health_rarity_2": -1,
+			"health_rarity_3": -1,
+			"health_rarity_4": -1,
+			"health_rarity_5": 7335
+		}
+	],
+	"crew_rank": [
+		{
+			"rank": 1,
+			"max_level": 20
+		},
+		{
+			"rank": 2,
+			"max_level": 60
+		},
+		{
+			"rank": 3,
+			"max_level": 120
+		},
+		{
+			"rank": 4,
+			"max_level": 200
+		},
+		{
+			"rank": 5,
+			"max_level": 300
+		}
+	]
+}
